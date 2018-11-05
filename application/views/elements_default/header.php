@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/home">
                             <img class="img-fluid" src="/assets/front/images/sbls-logo.jpg" alt="#">
                         </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
                                 <a class="<?= ($class_name == 'main' || $class_name == 'home') ? 'nav-link active' : 'nav-link' ?>" href="/home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#how-it-works">About</a>
+                                <a class="<?= ($class_name == 'about') ? 'nav-link active' : 'nav-link' ?>" href="/about">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#software-features">Products</a>

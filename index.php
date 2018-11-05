@@ -1,4 +1,4 @@
-Greg is a awesome Developer123<?php
+<?php
 /**
  * CodeIgniter
  *
