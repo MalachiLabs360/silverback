@@ -15,22 +15,22 @@
                     <div class="slider-container">
                         <div class="slider-content">
                             <div class="slider-single">
-                                <a href="images/screenshots/01.jpg" class="popup-img"><img class="slider-single-image" src="/assets/front/images/screenshots/01.jpg" alt="1" /></a>
+                                <a href="/assets/front/img/screencapture0.png" class="popup-img"><img class="slider-single-image" src="/assets/front/img/screencapture0.png" alt="1" /></a>
                             </div>
                             <div class="slider-single">
-                                <a href="images/screenshots/01.jpg" class="popup-img"><img class="slider-single-image" src="/assets/front/images/screenshots/02.jpg" alt="2" /></a>
+                                <a href="/assets/front/img/screencapture1.png" class="popup-img"><img class="slider-single-image" src="/assets/front/img/screencapture1.png" alt="2" /></a>
                             </div>
                             <div class="slider-single">
-                                <a href="images/screenshots/01.jpg" class="popup-img"><img class="slider-single-image" src="/assets/front/images/screenshots/03.jpg" alt="3" /></a>
+                                <a href="/assets/front/img/screencapture2.png" class="popup-img"><img class="slider-single-image" src="/assets/front/img/screencapture2.png" alt="3" /></a>
                             </div>
                             <div class="slider-single">
-                                <a href="images/screenshots/01.jpg" class="popup-img"><img class="slider-single-image" src="/assets/front/images/screenshots/04.jpg" alt="4" /></a>
+                                <a href="/assets/front/img/screencapture3.png" class="popup-img"><img class="slider-single-image" src="/assets/front/img/screencapture3.png" alt="4" /></a>
                             </div>
                             <div class="slider-single">
-                                <a href="images/screenshots/01.jpg" class="popup-img"><img class="slider-single-image" src="/assets/front/images/screenshots/05.jpg" alt="5" /></a>
+                                <a href="/assets/front/img/screencapture4.png" class="popup-img"><img class="slider-single-image" src="/assets/front/img/screencapture4.png" alt="5" /></a>
                             </div>
                             <div class="slider-single">
-                                <a href="images/screenshots/01.jpg" class="popup-img"><img class="slider-single-image" src="/assets/front/images/screenshots/06.jpg" alt="6" /></a>
+                                <a href="/assets/front/img/screencapture5.png" class="popup-img"><img class="slider-single-image" src="/assets/front/img/screencapture5.png" alt="6" /></a>
                             </div>
                         </div>
                         <a class="slider-left" href="javascript:void(0);"><i class="fa fa-angle-left"></i></a>

@@ -21,8 +21,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="/home">
-                            <img class="img-fluid" src="/assets/front/images/sbls-logo.jpg" alt="#">
+                    <a class="navbar-brand" href="/">
+                            <img class="img-fluid" src="/assets/front/img/logo.png" alt="#">
                         </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="ion-navicon"></span>
@@ -48,7 +48,7 @@
                                 <a class="<?= $class_name == 'contact' ? 'nav-link active' : 'nav-link' ?>" href="/contact">Contact</a>
                             </li>
                         </ul>
-                        <a href="#" class="button bt-black pull-right">Download</a>
+                        <a href="#" class="button bt-black pull-right">Demo</a>
                     </div>
                 </nav>
             </div>
@@ -57,7 +57,7 @@
 </header>
 <!-- Header End -->
 <!-- Banner -->
-<section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="m4v:./video/01.m4v,webm:./video/01.webm,ogv:./video/01.ogv">
+<section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="m4v:/assets/front/video/01.m4v,webm:/assets/front/video/01.webm,ogv:./video/01.ogv">
     <div class="container-fluid">
         <div class="banner-text">
             <div class="row">
@@ -72,7 +72,7 @@
                             <div class="waves wave-3"></div>
                         </div>
                     </div>
-                    <a href="#" class="button bt-black iq-mt-5 iq-ml-40">Download</a>
+                    <a href="#" class="button bt-black iq-mt-5 iq-ml-40">Demo</a>
                 </div>
                 <div class="col-lg-6">
                     <img class="banner-img" src="/assets/front/images/banner/01.png" alt="">

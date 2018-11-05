@@ -21,8 +21,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="/home">
-                        <img class="img-fluid" src="/assets/front/images/sbls-logo.jpg" alt="#">
+                    <a class="navbar-brand" href="/">
+                        <img class="img-fluid" src="/assets/front/img/logo.png" alt="#">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="ion-navicon"></span>

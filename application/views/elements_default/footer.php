@@ -75,7 +75,7 @@
                         </div>
                         <div class="footer-content">
                             <h4 class="iq-tw-6 iq-pb-10">Mail</h4>
-                            <p>contact@silverbacklearning.com
+                            <p>contact@silverback.com
                                 <br>24 X 7 online support
                                 <br>
                             </p>
@@ -93,7 +93,7 @@
             </div>
             <div class="row iq-mt-40">
                 <div class="col-sm-12 text-center">
-                    <div class="footer-copyright iq-ptb-20">© Copyright 2018 Sofbox Developed by <b>iqonicthemes</b>.</div>
+                    <div class="footer-copyright iq-ptb-20">© Copyright 2018 Silverback Learning.</div>
                 </div>
             </div>
         </div>
