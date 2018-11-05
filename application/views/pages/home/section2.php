@@ -1,5 +1,5 @@
 <!-- Software Features -->
-<section id="iq-software-features" class="grey-bg bg-full-features">
+<section id="iq-software-features" class="white-bg bg-full-features">
     <div class="container-fluid no-padding">
         <div class="row">
             <div class="col-lg-6">
