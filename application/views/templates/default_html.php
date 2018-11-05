@@ -14,22 +14,7 @@
 
   <body data-spy="scroll" data-offset="80">
 
-    <?php
-        $class_name = $this->router->fetch_class();
-    ?>
-
-    <?php
-    switch ($class_name){
-        default:
-            $this->view('elements_default/header',$params);
-            break;
-
-        case 'about':
-            $this->view('pages/about/about-header', $params);
-            break;
-    }
-    ?>
-
+    <?php $this->view('elements_default/header',$params); ?>
 
     <div class="main-content">
       <?= $page['content'] ?>
