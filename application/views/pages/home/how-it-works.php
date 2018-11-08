@@ -12,45 +12,38 @@
         <div class="row">
             <div class="col-md-12 col-lg-4">
                 <div class="iq-works-box text-left">
-                    <div class="step">1</div>
                     <div class="icon-bg text-center">
-                        <img src="/assets/front/images/services/icon1.png" class="img-fluid" alt="#">
+                        <img src="/assets/front/img/mileposts.png" class="img-fluid" alt="#">
                     </div>
-                    <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Mileposts</h5>
-                    <p>Instructional Management System</p>
+                    <p></p>
                     <ul>
-                      <li>Data aggregated and accessible</li>
-                      <li>Learner profiles encapsulate the “whole child”</li>
-                      <li>All stakeholders share in the longitudinal view</li>
+                      <p>A Data aggregated and accessible instructional management system Featuring learner profiles encapsulating the “whole child”.</p>
+                      
+                      
                     </ul>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4 r-mt-30">
                 <div class="iq-works-box text-left">
-                    <div class="step">2</div>
                     <div class="icon-bg text-center">
-                        <img src="/assets/front/images/services/icon2.png" class="img-fluid" alt="#">
+                        <img src="/assets/front/img/vitae.png" class="img-fluid" alt="#">
                     </div>
-                    <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Teacher Vitae</h5>
-                    <p>Employee Evaluation & Portfolio Management</p>
+                    <p></p>
                     <ul>
-                      <li>Individualized, professional growth portfolios</li>
-                      <li>Timely, impactful observations and evaluations</li>
-                      <li>Every artifact correlated to professional standards</li>
+                      <p>Individualized, professional growth portfolios offering timely, impactful observation and evaluation correlated to professional standards.</p>
+                  
                     </ul>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4 r-mt-30">
                 <div class="iq-works-box text-left">
-                    <div class="step">3</div>
                     <div class="icon-bg text-center">
-                        <img src="/assets/front/images/services/icon3.png" class="img-fluid" alt="#"></div>
-                    <h5 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">EdifyAssess</h5>
-                    <p>District & Classroom Formative Assessment</p>
+                        <img src="/assets/front/img/edify.png" class="img-fluid" alt="#"></div>
+                    <p></p>
                     <ul>
-                      <li>>100,000 test items in varied item types</li>
-                      <li>Create assessments at the point of instruction</li>
-                      <li>Pinpoint skill gaps linked to adopted standards</li>
+                      <p> More than 100,000 test items in varied item types enabling the creation of assessments that pinpoint skill gaps.<p>
+                      <li> </li>
+                      <li></li>
                     </ul>
                 </div>
             </div>

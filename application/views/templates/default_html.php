@@ -13,19 +13,9 @@
   </head>
 
   <body data-spy="scroll" data-offset="80">
-      
-    <?php $this->view('elements_default/header',$params) ?>
 
-    <?php
-        $class_name = $this->router->fetch_class();
+    <?php $this->view('elements_default/header',$params); ?>
 
-        switch ($class_name) {
-            case 'main':
-                //$this->view('elements_default/banner');
-                break;
-        }
-    ?>
-    
     <div class="main-content">
       <?= $page['content'] ?>
     </div>

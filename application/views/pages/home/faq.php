@@ -44,7 +44,6 @@
     </div>
     <div class="iq-objects-asked">
         <span class="iq-objects-01">
-          <img src="/assets/front/images/drive/02.png" alt="drive02">
         </span>
         <span class="iq-objects-02" data-bottom="transform:translatex(50px)" data-top="transform:translatex(-100px);">
             <img src="/assets/front/images/drive/04.png" alt="drive02">
