@@ -3,7 +3,7 @@
         <div class="row">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item">
-                  <a class="nav-link active1" id="sales-tab" data-toggle="tab" href="#sales" role="tab" aria-controls="home" aria-selected="true"><i aria-hidden="true" class="ion-monitor"></i><span>Sales Info</span></a>
+                  <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#sales" role="tab" aria-controls="home" aria-selected="true"><i aria-hidden="true" class="ion-monitor"></i><span>Sales Info</span></a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="profile" aria-selected="false"><i aria-hidden="true" class="ion-ipad"></i><span>Customer Support</span></a>

@@ -1,5 +1,5 @@
 <?php $class_name = $this->router->fetch_class(); ?>
-
+<?= $class_name ?>
 <div id="loading">
     <div id="loading-center">
         <div class="loader">
@@ -43,7 +43,7 @@
                                 <a class="nav-link" href="#great-screenshots">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#pricing">Training</a>
+                                <a class="<?= ($class_name == 'training') ? 'nav-link active' : 'nav-link' ?>" href="/training">Training</a>
                             </li>
                             <li class="nav-item">
                                 <a class="<?= $class_name == 'contact' ? 'nav-link active' : 'nav-link' ?>" href="/contact">Contact</a>
