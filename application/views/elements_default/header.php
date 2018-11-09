@@ -36,8 +36,13 @@
                             <li class="nav-item">
                                 <a class="<?= ($class_name == 'about') ? 'nav-link active' : 'nav-link' ?>" href="/about">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="<?= ($class_name == 'products') ? 'nav-link active' : 'nav-link' ?>" href="/products">Products</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Mileposts</a>
+                                    <a class="dropdown-item" href="#">Teacher Vitae</a>
+                                    <a class="dropdown-item" href="#">EdifyAssess</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#great-screenshots">News</a>
