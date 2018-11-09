@@ -14,5 +14,4 @@ class Main extends ME_Controller {
 		$params = array();
 		$this->load->view('pages/home/main',$params);
 	 }
-
 }

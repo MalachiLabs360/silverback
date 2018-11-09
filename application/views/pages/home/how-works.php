@@ -15,8 +15,8 @@
     </div>
     <div class="iq-objects">
         <span class="iq-objects-01">
-                <img src="/assets/front/images/drive/02.png" alt="drive02">
-            </span>
+          
+        </span>
         <span class="iq-objects-02" data-bottom="transform:translatey(50px)" data-top="transform:translatey(-100px);">
                 <img src="/assets/front/images/drive/03.png" alt="drive02">
             </span>
