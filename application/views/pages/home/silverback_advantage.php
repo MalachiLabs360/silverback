@@ -12,7 +12,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-lg-6">
-                <img class="img-fluid center-block" src="/assets/front/images/drive/home_silverlight_advantage.png" alt="drive10" style="z-index: 9; position: relative;">
+                <img class="img-fluid center-block" src="/assets/front/img/computer.png" alt="The Silverback Advantage" style="z-index: 9; position: relative;">
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="iq-accordion iq-mt-50">

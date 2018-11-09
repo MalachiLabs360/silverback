@@ -16,4 +16,11 @@ class About extends ME_Controller {
         $this->load->view('pages/about/main',$params);
 
     }
+    
+    public function our_story()
+    {
+        $params = array();
+        $this->load->view('pages/about/our_story/main',$params);
+
+    }
 }

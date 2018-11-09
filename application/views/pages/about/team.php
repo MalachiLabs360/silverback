@@ -1,5 +1,5 @@
 <!-- Meet the Team -->
-<section id="team" class="overview-block-ptb white-bg">
+<section id="team" class="overview-block-ptb grey-bg">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg col-md-6">
+            <div class="col-sm-6 col-lg col-md-4">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
                         <img src="/assets/front/images/team/Jim-Lewis_270x333.jpg" class="img-fluid center-block" alt="#">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg col-md-6 r4-mt-30">
+            <div class="col-sm-6 col-lg col-md-4 r4-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
                         <img src="/assets/front/images/team/Rudi-Lewis_270x333.jpg" class="img-fluid center-block" alt="#">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg col-md-6 r-mt-30">
+            <div class="col-sm-6 col-lg col-md-4 r-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
                         <img src="/assets/front/images/team/Jade-Millington_270x333.jpg" class="img-fluid center-block" alt="#">
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg col-md-6 r-mt-30">
+            <div class="col-sm-6 col-lg col-md-4 r-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
                         <img src="/assets/front/images/team/Doug-Case_270x333.png" class="img-fluid center-block" alt="#">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg col-md-6 r-mt-30">
+            <div class="col-sm-6 col-lg col-md-4 r-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
                         <img src="/assets/front/images/team/Kristina-Brinkerhoff_270x333.png" class="img-fluid center-block" alt="#">
