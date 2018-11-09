@@ -40,7 +40,7 @@
                                 <a class="<?= ($class_name == 'products') ? 'nav-link active' : 'nav-link' ?>" href="/products">Products</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#great-screenshots">News</a>
+                                <a class="<?= ($class_name == 'news') ? 'nav-link active' : 'nav-link' ?>" href="/news">News</a>
                             </li>
                             <li class="nav-item">
                                 <a class="<?= ($class_name == 'training') ? 'nav-link active' : 'nav-link' ?>" href="/training">Training</a>
