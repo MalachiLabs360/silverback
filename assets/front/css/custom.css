@@ -12,6 +12,27 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 @import 'color/color-10.css';
 
 /* -------------------------------------------------*/
+/* Header */
+/* -------------------------------------------------*/
+header.header-green { background: #7fc229; }
+
+#dropdown_menu{
+  background: #66c229;
+  text-align: center;
+  border-color: white;
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+
+#dropdown_item:hover{
+  background: green;
+}
+
+
+
+/* -------------------------------------------------*/
 /* Partners */
 /* -------------------------------------------------*/
 

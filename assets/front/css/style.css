@@ -648,7 +648,6 @@ header.header-fancy .navbar .navbar-nav .nav-item a:hover, header.header-fancy .
 
 /* Header White */
 header.header-white { background: #fff; }
-header.header-green { background: #7fc229; }
 header.header-white .navbar .navbar-nav .nav-item a::before { background: #4ac4f3; }
 header.header-white .navbar .navbar-nav .nav-item a { color: #333; }
 header.header-white .navbar .navbar-nav .nav-item a:hover, header.header-white .navbar .navbar-nav .nav-item a:focus, header.header-white .navbar .navbar-nav .nav-item a.active, header.header-white .navbar .navbar-nav .nav-item a.active:focus, header.header-white .navbar .navbar-nav .nav-item a.active:hover { color: #4ac4f3; background: none; box-shadow: none; }

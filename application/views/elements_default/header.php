@@ -38,10 +38,12 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Mileposts</a>
-                                    <a class="dropdown-item" href="#">Teacher Vitae</a>
-                                    <a class="dropdown-item" href="#">EdifyAssess</a>
+                                <div id="dropdown_menu" class="dropdown-menu">
+                                    <a id="dropdown_item" class="dropdown-item" href="/mileposts">Mileposts</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a id="dropdown_item" class="dropdown-item" href="/teacher_vitae">Teacher Vitae</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a id="dropdown_item" class="dropdown-item" href="/edifyassess">EdifyAssess</a>
                                 </div>
                             </li>
                             <li class="nav-item">
