@@ -3,18 +3,17 @@
     <div class="container-fluid">
         <div class="banner-text">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="margin-top: -91px">
                     <h1 class="text-uppercase iq-font-white iq-tw-3">A <b class="iq-tw-7">360 degree solution</b> for education</h1>
                     <p class="iq-font-white iq-pt-15 iq-mb-40">Secure, cloud-based K-12 education platform available anywhere, anytime, from any web browser</p>
                     <div class="waves-box">
-                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
+                        <a href="http://www.youtube.com/watch?v=hmZJKzM0frE" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
                         <div class="iq-waves">
                             <div class="waves wave-1"></div>
                             <div class="waves wave-2"></div>
                             <div class="waves wave-3"></div>
                         </div>
                     </div>
-                    <a href="#" class="button bt-black iq-mt-5 iq-ml-40">Demo</a>
                 </div>
                 <div class="col-lg-6">
                     <img class="banner-img" src="/assets/front/images/banner/01.png" alt="">

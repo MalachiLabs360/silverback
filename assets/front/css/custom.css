@@ -86,6 +86,17 @@ header.header-green { background: #7fc229; }
   padding: 30px;
 }
 
+.iq-over-sb-60:before { 
+  content: ""; 
+  height: 100%; 
+  left: 0; 
+  position: absolute; 
+  top: 0; 
+  width: 100%; 
+  z-index: -1; 
+  background: rgba(0, 0, 0, 0.40); 
+}
+
 @media(min-width:992px) {
   #partners .iq-works-box {
     height: 420px;

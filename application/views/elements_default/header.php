@@ -1,5 +1,4 @@
 <?php $class_name = $this->router->fetch_class(); ?>
-<?= $class_name ?>
 <div id="loading">
     <div id="loading-center">
         <div class="loader">
@@ -17,7 +16,7 @@
     </div>
 </div>
 
-<header id="main-header" class="header-green menu-sticky">
+<header id="main-header">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
@@ -47,7 +46,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#great-screenshots">News</a>
+                                <a class="<?= ($class_name == 'news') ? 'nav-link active' : 'nav-link' ?>" href="/news">News</a>
                             </li>
                             <li class="nav-item">
                                 <a class="<?= ($class_name == 'training') ? 'nav-link active' : 'nav-link' ?>" href="/training">Training</a>
@@ -67,12 +66,19 @@
 
 <?php
 switch ($class_name){
+    case 'about':
+        $this->view('elements_default/banner-about');
+        break;
+    case 'news':
+        $this->view('elements_default/banner-news');
+        break;
+    case 'training':
+        $this->view('elements_default/banner-training');
+        break;
+    case 'contact':
+        $this->view('elements_default/banner-contact');
+        break;
     default:
         $this->view('elements_default/banner');
-        break;
-
-    case 'about':
-        $this->view('elements_default/about-banner');
-        break;
 }
 ?>
