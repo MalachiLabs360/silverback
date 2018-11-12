@@ -55,16 +55,20 @@
     <form id="contact" method="post">
       <div class="contact-form">
           <div class="section-field">
-              <input class="require" id="contact_name" type="text" placeholder="Name*" name="name">
+              <input class="require" id="contact_name" type="text" placeholder="Full Name*" name="name">
+          </div>
+          <div class="section-field">
+              <input class="require" id="contact_location" type="text" placeholder="Location (State)*" name="location">
+          </div>
+          <div class="section-field">
+              <input class="require" id="contact_district" type="text" placeholder="District*" name="district">
           </div>
           <div class="section-field">
               <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
           </div>
-          <div class="section-field">
-              <input class="require" id="contact_phone" type="text" placeholder="Phone*" name="phone">
-          </div>
           <div class="section-field textarea">
-              <textarea id="contact_message" class="input-message require" placeholder="Comment*" rows="5" name="message"></textarea>
+              <p><b>Problem Description</p>
+              <textarea id="contact_message" class="input-message require" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
           </div>
           <div class="section-field iq-mt-20">
               <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
