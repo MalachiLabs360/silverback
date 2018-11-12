@@ -1,4 +1,6 @@
 <?php $class_name = $this->router->fetch_class(); ?>
+<?php $method_name = $this->router->fetch_method(); ?>
+
 <div id="loading">
     <div id="loading-center">
         <div class="loader">
@@ -35,8 +37,15 @@
                             <li class="nav-item">
                                 <a class="<?= ($class_name == 'about') ? 'nav-link active' : 'nav-link' ?>" href="/about">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="<?= ($class_name == 'products') ? 'nav-link active' : 'nav-link' ?>" href="/products">Products</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle drop" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                                <div id="dropdown_menu" class="dropdown-menu">
+                                    <a id="dropdown_item" class="dropdown-item" href="/products/mileposts">Mileposts</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a id="dropdown_item" class="dropdown-item" href="/products/teachervitae">Teacher Vitae</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a id="dropdown_item" class="dropdown-item" href="/products/edifyassess">EdifyAssess</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="<?= ($class_name == 'news') ? 'nav-link active' : 'nav-link' ?>" href="/news">News</a>
@@ -48,7 +57,6 @@
                                 <a class="<?= $class_name == 'contact' ? 'nav-link active' : 'nav-link' ?>" href="/contact">Contact</a>
                             </li>
                         </ul>
-                        <a href="#" class="button bt-black pull-right">Demo</a>
                     </div>
                 </nav>
             </div>
@@ -60,18 +68,33 @@
 <?php
 switch ($class_name){
     case 'about':
-        $this->view('elements_default/banner-about');
+        if ($method_name == 'our_story') {
+          $this->view('elements_default/banners/others');
+        } else {
+          $this->view('elements_default/banners/about');
+        }
         break;
     case 'news':
-        $this->view('elements_default/banner-news');
+        $this->view('elements_default/banners/news');
         break;
     case 'training':
-        $this->view('elements_default/banner-training');
+        $this->view('elements_default/banners/training');
         break;
     case 'contact':
-        $this->view('elements_default/banner-contact');
+        $this->view('elements_default/banners/contact');
+        break;
+    case 'products':
+        if ($method_name == 'mileposts') {
+          $this->view('elements_default/banners/mileposts');
+        } elseif ($method_name == 'edifyassess') {
+          $this->view('elements_default/banners/edifyassess');
+        } elseif ($method_name == 'teachervitae') {
+          $this->view('elements_default/banners/teachervitae');
+        } else {
+          $this->view('elements_default/banners/home');
+        }
         break;
     default:
-        $this->view('elements_default/banner');
+        $this->view('elements_default/banners/home');
 }
 ?>

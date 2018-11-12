@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="heading-title">
-                    <h3 class="title iq-tw-7">Our Core Features</h3>
+                    <h3 class="title iq-tw-7">Core Competencies</h3>
                     <p>Educators and administrators partner with Silverback to propel students in their personalized learning journey and teachers in their professional success. Revolutionize the way your team looks at instructional effectiveness.</p>
                 </div>
             </div>

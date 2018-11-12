@@ -7,6 +7,7 @@ class Main extends ME_Controller {
   {
     parent::__construct();
     $this->page['template']	= 'default_html.php';
+	 $this->page['title']	= 'Silverback Learning';
   }
 
 	public function index()

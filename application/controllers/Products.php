@@ -17,8 +17,22 @@ class Products extends ME_Controller {
 
 	public function mileposts()
  	{
+		$this->page['title']	= 'Silverback Mileposts';
  		$params = array();
- 		$this->load->view('pages/products/main',$params);
+ 		$this->load->view('pages/products/mileposts/main',$params);
  	 }
 	 
+	 public function edifyassess()
+	 {
+		$this->page['title']	= 'EdifyAssess';
+		$params = array();
+		$this->load->view('pages/products/edifyassess/main',$params);
+	 }
+	 
+	 public function teachervitae()
+	 {
+		$this->page['title']	= 'Teacher Vitae';
+		$params = array();
+		$this->load->view('pages/products/teachervitae/main',$params);
+	 }
 }
