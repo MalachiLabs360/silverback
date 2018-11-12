@@ -1,7 +1,6 @@
-<!-- Banner -->
-<section id="iq-home" class="iq-banner-02 no-before overview-block-pt iq-bg-over iq-over-sb-60 iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/img/header_girl.jpg);">
+<section id="iq-home" class="iq-banner-02 no-before overview-block-pt iq-bg-over iq-over-sb-60 iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/img/header_girl.jpg); height: 100vh;">
     <div class="container">
-        <div class="banner-text text-center">
+        <div class="banner-text text-center" style="margin-top: 10%">
             <div class="row">
                 <div class="col-md-12">
                     <h1 class=" iq-font-white iq-tw-8">Silverback <span class="iq-font-blue">Training</span></h1>
@@ -28,4 +27,3 @@
             </span>
     </div>
 </section>
-<!-- Banner End -->

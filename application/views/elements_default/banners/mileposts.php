@@ -3,13 +3,12 @@
         <div class="banner-text">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="text-uppercase iq-font-blue iq-tw-3">We are building <b class="iq-tw-7">software</b> to help</h1>
-                    <p class="iq-font-black iq-pt-15 iq-mb-40">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley, </p>
-                    <a href="#" class="button-blue-shadow iq-mt-20 iq-mr-20">Learn More</a>
-                    <a href="#" class="button-line-shadow iq-mt-20">Download</a>
+                    <h1 class="text-uppercase iq-font-blue iq-tw-3"><b class="iq-tw-7">Mileposts</b></h1>
+                    <h3 class="text-uppercase iq-font-blue iq-tw-3" style="color: #54cbf5">PERSONALIZE THE LEARNING JOURNEY</h3>
+                    <p class="iq-font-black iq-pt-15 iq-mb-40">Mileposts provides a holistic view of every student so educators and administrators can make more informed decisions, help each learner achieve personalized success, and keep parents up to date with their child’s progress.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img class="banner-img" src="/assets/front/images/banner/13.png" alt="">
+                    <img class="banner-img" src="/assets/front/img/mileposts_screen.png" alt="">
                 </div>
             </div>
         </div>

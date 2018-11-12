@@ -1,15 +1,20 @@
-/*
-
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 3.0
-Design and Developed by: iqonicthemes.in
-
-NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
-
-*/
-
 @import 'color/color-10.css';
+
+.drop {
+  cursor: s-resize;
+}
+
+.img_container_right {
+  width: 50%;
+  float: right;
+  padding: 0px 0px 10px 10px;
+}
+
+.img_container_left {
+  width: 50%;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
 
 /* -------------------------------------------------*/
 /* Header */
@@ -17,9 +22,17 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 header.header-green { background: #7fc229; }
 
 #dropdown_menu{
+  top: 44px;
   background: #66c229;
   text-align: center;
-  border-color: white;
+  border: 1px solid #fff;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.dropdown-divider {
+    margin: 0px;
 }
 
 .dropdown:hover>.dropdown-menu{
@@ -86,6 +99,23 @@ header.header-green { background: #7fc229; }
   padding: 30px;
 }
 
+/* -------------------------------------------------*/
+/* Contact */
+/* -------------------------------------------------*/
+
+#contact .iq-amazing-tab .nav.nav-tabs li {
+    margin-bottom: 0;
+    display: inline-block;
+    float: none;
+    width: 45%;
+    position: relative;
+}
+
+#contact .nav-link.show {
+  border-bottom: 2px solid #7fc129;
+  background-color: #f5f7fb !important;
+}
+
 .iq-over-sb-60:before { 
   content: ""; 
   height: 100%; 
@@ -100,5 +130,13 @@ header.header-green { background: #7fc229; }
 @media(min-width:992px) {
   #partners .iq-works-box {
     height: 420px;
+  }
+  
+  #mile-post-features .iq-works-box {
+    height: 390px;
+  }
+  
+  .client-info p {
+    height: 353px;
   }
 }

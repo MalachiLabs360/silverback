@@ -1,7 +1,6 @@
-<section id="iq-home" class="iq-banner-07 overview-block-ptb iq-bg-over iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/img/header_teens.jpg);">
-    <!-- BACKGROUND PARTICLES -->
+<section id="iq-home" class="iq-banner-07 overview-block-ptb iq-bg-over iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/img/boys3.jpg); height: 100vh;">
     <div class="container">
-        <div class="banner-text">
+        <div class="banner-text" style="margin-top: 10%">
             <div class="row">
                 <div class="col-lg-6">
                     <h1 class="iq-font-white text-uppercase iq-tw-5"><b>Contact <span class="iq-font-green">Silverback Learning</span> </b></h1>

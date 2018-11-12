@@ -1,9 +1,9 @@
 <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item">
-        <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#sales" role="tab" aria-controls="home" aria-selected="true"><i aria-hidden="true" class="ion-monitor"></i><span>Sales Info</span></a>
+        <a class="nav-link active show" id="sales-tab" data-toggle="tab" href="#sales" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-bolt" aria-hidden="true"></i> <span>Sales Info</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="profile" aria-selected="false"><i aria-hidden="true" class="ion-ipad"></i><span>Customer Support</span></a>
+        <a class="nav-link" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-users" aria-hidden="true"></i><span>Customer Support</span></a>
     </li>
 </ul>
 <div class="tab-content iq-mt-50" id="myTabContent">
@@ -31,7 +31,7 @@
               <textarea id="contact_message" class="input-message require" placeholder="Comment*" rows="5" name="message"></textarea>
           </div>
           <div class="section-field iq-mt-20">
-              <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
+              <div class="g-recaptcha" data-sitekey="6LcUNXoUAAAAAAWrvZjMng4XZolrL8EOHqUFvlZT"></div>
           </div>
           <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
           <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
@@ -71,7 +71,7 @@
               <textarea id="contact_message" class="input-message require" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
           </div>
           <div class="section-field iq-mt-20">
-              <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
+              <div class="g-recaptcha" data-sitekey="6LcUNXoUAAAAAAWrvZjMng4XZolrL8EOHqUFvlZT"></div>
           </div>
           <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
           <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">

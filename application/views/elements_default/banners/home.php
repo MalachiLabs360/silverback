@@ -7,7 +7,7 @@
                     <h1 class="text-uppercase iq-font-white iq-tw-3">A <b class="iq-tw-7">360 degree solution</b> for education</h1>
                     <p class="iq-font-white iq-pt-15 iq-mb-40">Secure, cloud-based K-12 education platform available anywhere, anytime, from any web browser</p>
                     <div class="waves-box">
-                        <a href="http://www.youtube.com/watch?v=hmZJKzM0frE" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
+                        <a href="http://www.youtube.com/watch?v=1ZDpRtrJtIc" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
                         <div class="iq-waves">
                             <div class="waves wave-1"></div>
                             <div class="waves wave-2"></div>
