@@ -1,11 +1,11 @@
-<section id="iq-home" class="iq-banner-08 overview-block-pt grey-bg">
+<section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="m4v:/assets/front/video/01.m4v,webm:/assets/front/video/01.webm,ogv:./video/01.ogv">
     <div class="container">
         <div class="banner-text">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="text-uppercase iq-font-blue iq-tw-3"><b class="iq-tw-7">Edify Assess</b></h1>
+                    <h1 class="text-uppercase iq-font-blue iq-tw-3"><b class="iq-tw-7" style="color: #ffffff">Edify Assess</b></h1>
                     <h3 class="text-uppercase iq-font-blue iq-tw-3" style="color: #54cbf5">PERSONALIZE THE LEARNING JOURNEY</h3>
-                    <p class="iq-font-black iq-pt-15 iq-mb-40">Mileposts provides a holistic view of every student so educators and administrators can make more informed decisions, help each learner achieve personalized success, and keep parents up to date with their child’s progress</p>
+                    <p class="iq-font-white iq-pt-15 iq-mb-40">Mileposts provides a holistic view of every student so educators and administrators can make more informed decisions, help each learner achieve personalized success, and keep parents up to date with their child’s progress</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="banner-img" src="/assets/front/img/edify_screen.png" alt="">
