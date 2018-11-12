@@ -34,7 +34,7 @@
                     <input class="require" id="phone_number" type="tel" placeholder="Phone Number - (555)-555-5555*" name="number">
                 </div>
                 <div>
-                    <p><b>I am interested in learning more about:</p>
+                    <p><b>I am interested in learning more about:</b></p>
                     <div class="form-group">
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="mileposts_box">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="required selection-field mb-3">
-                    <p><b>How did you hear about us?</p>
+                    <p><b>How did you hear about us?</b></p>
                     <select id="inputState" class="form-control">
                         <option>Conference</option>
                         <option>Website</option>
@@ -105,7 +105,7 @@
                     <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
                 </div>
                 <div class="selection-field mb-3">
-                    <p><b>Product:</p>
+                    <p><b>Product:</b></p>
                     <select id="inputState" class="form-control">
                         <option selected>Mileposts</option>
                         <option>Teacher Vitae</option>
@@ -114,7 +114,7 @@
                     </select>
                 </div>
                 <div class="section-field textarea">
-                    <p><b>Problem Description</p>
+                    <p><b>Problem Description</b></p>
                     <textarea id="contact_message" class="input-message require" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
                 </div>
                 <div class="section-field iq-mt-20">
