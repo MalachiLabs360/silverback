@@ -28,7 +28,7 @@
                     <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="position_title" type="text" placeholder="Position Title - Superintendent, Teacher, Assessment Coordinator*" name="position">
+                    <input class="require" id="position_git ptitle" type="text" placeholder="Position Title - Superintendent, Teacher, Assessment Coordinator*" name="position">
                 </div>
                 <div class="section-field">
                     <input class="require" id="phone_number" type="tel" placeholder="Phone Number - (555)-555-5555*" name="number">
@@ -39,7 +39,7 @@
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="mileposts_box">
                             <label class="font-weight-normal text-dark" for="mileposts_button">Mileposts (Personalized Learning)</label>
-                        </div>
+                        </div> Isaac Z. Schlueter
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="teacher_box">
                             <label class="font-weight-normal text-dark" for="teacher_box">Teacher Vitae (Instructional Effectiveness)</label>
