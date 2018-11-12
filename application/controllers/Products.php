@@ -18,7 +18,20 @@ class Products extends ME_Controller {
 	public function mileposts()
  	{
  		$params = array();
- 		$this->load->view('pages/products/main',$params);
+ 		$this->load->view('pages/products/mileposts/main',$params);
  	 }
 	 
+	 public function edifyassess()
+	 {
+			 $params = array();
+			 $this->load->view('pages/products/edifyassess/main',$params);
+
+	 }
+	 
+	 public function teachervitae()
+	 {
+			 $params = array();
+			 $this->load->view('pages/products/teachervitae/main',$params);
+
+	 }
 }

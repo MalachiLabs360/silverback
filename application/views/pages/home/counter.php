@@ -1,5 +1,5 @@
 <!-- Counter -->
-<div class="iq-pt-80 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(images/bg/02.jpg);">
+<div class="iq-pt-80 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/img/header_girl2.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 text-left">
@@ -40,7 +40,7 @@
                 <div class="col-lg-6">
                     <p>Educators and administrators partner with Silverback Learning Solutions in order to propel students in their personalized learning journey and teachers in their professional success. Our experienced team has worked together to create classroom and district assessments, focused on student needs. Join us and  revolutionize the way your team looks at instructional effectiveness.</p>
                     
-                    <a href="#" class="button bt-black iq-mt-15 iq-mb-30">Explore our solutions.</a>
+                    <a href="/products/mileposts" class="button bt-black iq-mt-15 iq-mb-30">Explore our solutions.</a>
                 </div>
                 <div class="col-lg-6">
                     <div class="counter-info-img">

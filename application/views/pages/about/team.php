@@ -1,5 +1,4 @@
-<!-- Meet the Team -->
-<section id="team" class="overview-block-ptb grey-bg">
+<section class="overview-block-ptb grey-bg">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -108,4 +107,3 @@
         </div>
     </div>
 </section>
-<!-- Meet the Team END -->

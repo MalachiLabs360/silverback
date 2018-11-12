@@ -22,7 +22,7 @@
                                     <textarea id="contact_message" class="input-message require" placeholder="Comment*" rows="5" name="message"></textarea>
                                 </div>
                                 <div class="section-field iq-mt-20">
-                                    <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LcUNXoUAAAAAAWrvZjMng4XZolrL8EOHqUFvlZT"></div>
                                 </div>
                                 <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
                                 <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">

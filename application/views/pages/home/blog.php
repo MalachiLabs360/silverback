@@ -16,7 +16,7 @@
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
                                 <div class="media-wrapper">
-                                    <video style="width:100%;height:100%;" id="player1" poster="video/01.jpg" controls preload="none">
+                                    <video style="width:100%;height:100%;" id="player1" poster="/assets/front/video/01.jpg" controls preload="none">
                                         <source type="video/m4v" src="video/01.m4v" />
                                         <source type="video/webm" src="video/01.webm" />
                                         <source type="video/ogg" src="video/01.ogv" />
@@ -44,15 +44,14 @@
                                 <img class="img-fluid center-block" src="/assets/front/images/blog/01.jpg" alt="#">
                             </div>
                             <div class="iq-blog-detail">
-                                <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Blogpost With Image</h5> </a> </div>
+                                <div class="blog-title"> <a href="blog-single.html"><h5 class="iq-tw-6 iq-mb-10">Intermountain Educators</h5> </a> </div>
                                 <div class="blog-content">
-                                    <p>Quae laboriosam sunt consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. hic perspiciatis.</p>
+                                    <p>Intermountain Educators: Join the conversation at #IDedchat, Wednesdays at 8PM.</p>
                                 </div>
                                 <div class="iq-blog-meta">
                                     <ul class="list-inline">
                                         <li class="list-inline-item"><a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> Tom Herry</a></li>
                                         <li class="list-inline-item"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</a></li>
-                                        <li class="list-inline-item"><a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 5</a></li>
                                     </ul>
                                 </div>
                             </div>
