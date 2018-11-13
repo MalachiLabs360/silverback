@@ -39,7 +39,7 @@
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="mileposts_box">
                             <label class="font-weight-normal text-dark" for="mileposts_button">Mileposts (Personalized Learning)</label>
-                        </div> Isaac Z. Schlueter
+                        </div>
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="teacher_box">
                             <label class="font-weight-normal text-dark" for="teacher_box">Teacher Vitae (Instructional Effectiveness)</label>

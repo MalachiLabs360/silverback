@@ -2,8 +2,20 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h2 class="iq-tw-6 iq-mb-25">Spotlighted Initiatives</h2>
-                <p class="iq-font-15">A powerful solution enabling districts to effectively  engage in and deliver on key initiatives.</p>
+                <h2 class="iq-tw-6 iq-mb-25">Educator growth powered by professional learning portfolios
+                </h2>
+                <p class="iq-font-15">Silverback’s Teacher VitaeTM is a complete observation, evaluation, and
+                    professional portfolio tool that can help all Idaho school districts revolutionize
+                    the way they look at employee effectiveness. Teacher Vitae’sTM dual system
+                    design provides Evaluation Management to guide the entire employee
+                    evaluation process for principals and administrators. Every employee is
+                    empowered with Personal Portfolio Management, allowing each to build a
+                    professional portfolio that captures personal success and reflection on practice.
+                    Portfolios artifacts are even portable, and year over year available. Teacher
+                    VitaeTM creates an environment for meaningful conversations around the teaching
+                    process, while empowering every employee in the district to actively take charge
+                    of their professional growth.
+                </p>
                 <ul class="iq-mt-40 iq-list float-left">
                     <li class="iq-tw-7"><i class="ion-wand iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">K-3 Plans & Interventions</span></li>
                     <li class="iq-tw-7"><i class="ion-levels iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">ELL/ELA Programs</span></li>
