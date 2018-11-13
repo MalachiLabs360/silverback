@@ -1,6 +1,7 @@
 <?php $params = array(); ?>
-<?php $this->view('pages/products/teachervitae/how_it_works',$params); ?>
 <?php $this->view('pages/products/teachervitae/features',$params); ?>
+<?php $this->view('pages/products/teachervitae/educator_growth',$params); ?>
+<?php $this->view('pages/products/teachervitae/faq',$params); ?>
 <?php $this->view('pages/products/teachervitae/student',$params); ?>
 <?php $this->view('pages/products/teachervitae/study',$params); ?>
 <style>
