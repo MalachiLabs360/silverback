@@ -4,3 +4,4 @@
 <script src="/assets/front/js/main.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="/assets/front/js/custom.js"></script>
+<script src="/assets/front/js/silverback.js"></script>

@@ -37,12 +37,12 @@
                 </div>
             </div>
         </div>
-        <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.129557560412!2d-116.35998808450458!3d43.58301767912378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54ae5137a7f2cd35%3A0x180c69d62801a826!2s2963+E+Copper+Point+Dr+%23150%2C+Meridian%2C+ID+83642!5e0!3m2!1sen!2sus!4v1541996496157" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe class="map" id="gmap_canvas" src="https://maps.google.com/maps?q=2963%20E%20Copper%20Point%20Dr%2C%20Meridian%2C%20ID%2083642&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </section>
     <section class="footer-info iq-pt-60">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-3 r-mt-30">
                     <div class="iq-footer-box text-left">
                         <div class="iq-icon">
                             <i aria-hidden="true" class="ion-ios-location-outline"></i>
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 r4-mt-30">
+                <div class="col-md-6 col-lg-3 r-mt-30">
                     <div class="iq-footer-box text-left">
                         <div class="iq-icon">
                             <i aria-hidden="true" class="ion-ios-telephone-outline"></i>

@@ -1,4 +1,3 @@
-<!-- Sofbox Specialities -->
 <section class="overview-block-ptb grey-bg">
     <div class="container">
         <div class="row">
@@ -10,7 +9,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg-3 col-md-6">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
                     <div class="iq-icon">
                         <i aria-hidden="true" class="ion-ios-monitor-outline"></i>
@@ -32,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 r-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
                     <div class="iq-icon">
                         <i aria-hidden="true" class="ion-social-googleplus-outline"></i>
@@ -43,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 r-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
                     <div class="iq-icon">
                         <i aria-hidden="true" class="ion-ios-heart-outline"></i>
@@ -54,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
                     <div class="iq-icon">
                         <i aria-hidden="true" class="ion-ios-checkmark-outline"></i>
@@ -65,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
                     <div class="iq-icon">
                         <i aria-hidden="true" class="ion-ios-color-wand-outline"></i>
@@ -76,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
                     <div class="iq-icon">
                         <i aria-hidden="true" class="ion-ios-photos-outline"></i>
@@ -87,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
                     <div class="iq-icon">
                         <i aria-hidden="true" class="ion-ios-videocam-outline"></i>
@@ -101,4 +100,3 @@
         </div>
     </div>
 </section>
-<!-- Sofbox Specialities END -->

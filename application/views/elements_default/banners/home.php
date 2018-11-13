@@ -1,9 +1,9 @@
 <!-- Banner -->
-<section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="m4v:/assets/front/video/01.m4v,webm:/assets/front/video/01.webm,ogv:./video/01.ogv">
+<section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="mp4:/assets/front/video/360.mp4">
     <div class="container-fluid">
         <div class="banner-text">
             <div class="row">
-                <div class="col-lg-6" style="margin-top: -91px">
+                <div class="col-lg-6 home-top-text">
                     <h1 class="text-uppercase iq-font-white iq-tw-3">A <b class="iq-tw-7">360 degree solution</b> for education</h1>
                     <p class="iq-font-white iq-pt-15 iq-mb-40">Secure, cloud-based K-12 education platform available anywhere, anytime, from any web browser</p>
                     <div class="waves-box">

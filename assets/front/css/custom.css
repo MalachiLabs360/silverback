@@ -16,6 +16,9 @@
   padding: 0px 10px 10px 0px;
 }
 
+.heading-title {
+    margin-bottom: 60px;
+}
 /* -------------------------------------------------*/
 /* Header */
 /* -------------------------------------------------*/
@@ -43,7 +46,25 @@ header.header-green { background: #7fc229; }
   background: green;
 }
 
+/* -------------------------------------------------*/
+/* Home */
+/* -------------------------------------------------*/
 
+.goto_about {
+    margin: 20px;
+}
+
+.solution {
+  cursor: pointer;  
+}
+
+.solution img {
+  margin-bottom: 30px;
+}
+
+.r4-mt-30 {
+    margin-top: 30px;
+}
 
 /* -------------------------------------------------*/
 /* Partners */
@@ -127,16 +148,43 @@ header.header-green { background: #7fc229; }
   background: rgba(0, 0, 0, 0.40); 
 }
 
+@media(min-width:320px) {
+
+  .solution {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media(min-width:500px) {
+  
+  .solution .iq-works-box {
+      height: 330px;
+  }
+  
+}
+
+@media(min-width:700px) {
+
+}
+
 @media(min-width:992px) {
+  
   #partners .iq-works-box {
     height: 420px;
   }
   
-  #mile-post-features .iq-works-box {
-    height: 390px;
-  }
-  
   .client-info p {
     height: 353px;
+  }
+
+  .solution {
+    margin-bottom: 0px;
+  }
+}
+
+@media(min-width:1050px) {
+  .home-top-text {
+    margin-top: -50px;
   }
 }
