@@ -1,16 +1,14 @@
-<!-- Meet the Team -->
 <section id="team" class="overview-block-ptb white-bg">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Meet the Team</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley,</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg col-md-6">
+            <div class="col-sm-12 col-lg col-md-6 r-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
                         <img src="/assets/front/images/team/Jim-Lewis_270x333.jpg" class="img-fluid center-block" alt="#">
@@ -22,14 +20,12 @@
                     <div class="share">
                         <ul>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg col-md-6 r4-mt-30">
+            <div class="col-sm-12 col-lg col-md-6 r-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
                         <img src="/assets/front/images/team/Rudi-Lewis_270x333.jpg" class="img-fluid center-block" alt="#">
@@ -40,10 +36,8 @@
                     </div>
                     <div class="share">
                         <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -59,10 +53,8 @@
                     </div>
                     <div class="share">
                         <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -78,10 +70,8 @@
                     </div>
                     <div class="share">
                         <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -97,10 +87,8 @@
                     </div>
                     <div class="share">
                         <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -108,4 +96,3 @@
         </div>
     </div>
 </section>
-<!-- Meet the Team END -->

@@ -1,6 +1,6 @@
 <?php $params = array(); ?>
-<?php $this->view('pages/home/how-it-works',$params); ?>
-<?php $this->view('pages/home/how-works',$params); ?>
+<?php $this->view('pages/home/silverback_solutions',$params); ?>
+<?php $this->view('pages/home/who_is_silverback',$params); ?>
 <?php $this->view('pages/home/silverback_advantage',$params); ?>
 <?php $this->view('pages/home/dashboard',$params); ?>
 <?php $this->view('pages/home/core_features',$params); ?>

@@ -665,7 +665,7 @@ header.dark.menu-sticky { padding: 10px 0; -webkit-box-shadow: 0px 0px 30px 0px 
 -----------------------------------------------------------------------*/
 .iq-banner { position: relative; overflow: hidden; }
 .iq-banner .container-fluid { padding: 0 90px; }
-.iq-banner:after { content: ""; bottom: -2px; left: 0; width: 100%; height: 78px; background: url('../images/banner/02.png') no-repeat 0 0; background-size: cover; display: inline-block; position: absolute; }
+.iq-banner:after { content: ""; bottom: -2px; left: 0; width: 100%; height: 78px; background: url('/assets/front/images/banner/02.png') no-repeat 0 0; background-size: cover; display: inline-block; position: absolute; }
 .iq-banner .banner-text { z-index: 9; position: relative; margin-top: 13%; }
 .iq-banner .banner-text h1 { font-size: 64px; line-height: normal; }
 .iq-banner .banner-img { width: 110%; }
@@ -747,7 +747,7 @@ header.dark.menu-sticky { padding: 10px 0; -webkit-box-shadow: 0px 0px 30px 0px 
 /* Banner 4 */
 .iq-banner-04 { position: relative; overflow: hidden; }
 .iq-banner-04 .container-fluid { padding: 0 90px; }
-.iq-banner-04:after { content: ""; bottom: -2px; left: 0; width: 100%; height: 78px; background: url('../images/banner/02.png') no-repeat 0 0; background-size: cover; display: inline-block; position: absolute; z-index: 99; }
+.iq-banner-04:after { content: ""; bottom: -2px; left: 0; width: 100%; height: 78px; background: url('/assets/front/images/banner/02.png') no-repeat 0 0; background-size: cover; display: inline-block; position: absolute; z-index: 99; }
 .iq-banner-04 .banner-text { z-index: 9; position: relative; margin-top: 2%; }
 .iq-banner-04 .banner-text h1 { font-size: 64px; line-height: normal; }
 .iq-banner-04 .banner-img { width: 100%; }
@@ -1128,7 +1128,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 /*---------------------------------------------------------------------
                        Sofbox Specialities
 -----------------------------------------------------------------------*/
-.iq-fancy-box { padding: 40px 15px 25px 15px; overflow: hidden; position: relative; background: #fff; border: 1px solid #f2f2f2; }
+.iq-fancy-box { padding: 25px 15px; overflow: hidden; position: relative; background: #fff; border: 1px solid #f2f2f2; }
 .iq-fancy-box .iq-icon { border-radius: 90px; display: inline-block; height: 86px; width: 86px; line-height: 86px; text-align: center; color: #4ac4f3; background: #f4f4f4; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 .iq-fancy-box:hover .iq-icon { color: #f4f4f4; background: #4ac4f3; }
 .iq-fancy-box .iq-icon i { font-size: 46px; }
@@ -1311,7 +1311,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
                            Footer Info
 -----------------------------------------------------------------------*/
 .footer-info { position: relative; }
-.footer-info .map { border: 0px; width: 100%; height: 600px; position: absolute; top: 0; left: 0; z-index: 1; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); }
+.footer-info .map { border: 0px; width: 100%; height: 600px; position: absolute; top: 0; left: 0; z-index: 1;}
 .iq-get-in { position: relative; z-index: 9; background: #fff; padding: 30px 30px; display: inline-block; width: 100%; margin-top: 30px; -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); }
 .contact-form .section-field { position: relative; width: 100%; float: left; }
 .contact-form .section-field input { position: relative; width: 100%; margin-bottom: 20px; border-radius: 4px; padding-left: 20px; height: 48px; line-height: 48px; clear: both; color: #b6b6b6; border: 1px solid #e1e1e1; }

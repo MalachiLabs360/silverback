@@ -18,25 +18,23 @@
                 <div class="iq-accordion iq-mt-50">
                     <div class="iq-ad-block ad-active"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Experienced</a>
                         <div class="ad-details">
-                            <div class="row">
-                                <div class="col-sm-3"><img alt="#" class="img-fluid" src="/assets/front/images/blog/01.jpg"></div>
-                                <div class="col-sm-9">Our founding team has an average of over 20 years of leadership experience in their respective fields that include academic leadership in school systems.</div>
-                            </div>
+                            Our founding team has an average of over 20 years of leadership experience in their respective fields that include academic leadership in school systems.
                         </div>
                     </div>
                     <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Reliable</a>
-                        <div class="ad-details">We consider the trust of our customers our greatest asset and are committed to offering quality products and knowledgeable service that is immediately responsive and dependable.</div>
+                        <div class="ad-details">
+                          We consider the trust of our customers our greatest asset and are committed to offering quality products and knowledgeable service that is immediately responsive and dependable.
+                        </div>
                     </div>
                     <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Insightful</a>
                         <div class="ad-details">
-                            <div class="row">
-                                <div class="col-sm-9">We understand the complexities and nuances of organizational operations, instructional accountability, and learning measurement.</div>
-                                <div class="col-sm-3"><img alt="#" class="img-fluid" src="/assets/front/images/blog/01.jpg"></div>
-                            </div>
+                            We understand the complexities and nuances of organizational operations, instructional accountability, and learning measurement.
                         </div>
                     </div>
                     <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Innovative</a>
-                        <div class="ad-details">Our team’s collective experiences and research combine to design innovations that serves learning environments for today’s knowledge-based economy.</div>
+                        <div class="ad-details">
+                          Our team’s collective experiences and research combine to design innovations that serves learning environments for today’s knowledge-based economy.
+                        </div>
                     </div>
                 </div>
             </div>
