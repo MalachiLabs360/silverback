@@ -446,8 +446,8 @@ Margin Right
 /*---------------------------------------------------------------------
                             Text Color 
 -----------------------------------------------------------------------*/
-.iq-font-blue { color: #4ac4f3; }
-.iq-font-green { color: #7fc129; }
+.iq-font-blue { color: #4ac4f3; font-weight: 300;}
+.iq-font-green { color: #7fc129; font-weight: 300;}
 .iq-font-white { color: #ffffff; }
 .iq-font-black { color: #333333; }
 .iq-font-light { color: #666666; }

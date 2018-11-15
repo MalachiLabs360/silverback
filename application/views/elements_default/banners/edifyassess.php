@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-6 home-top-text">
                     <h1 class="text-uppercase iq-font-blue iq-tw-3"><b class="iq-tw-7" style="color: #ffffff">Edify Assess</b></h1>
-                    <h3 class="text-uppercase iq-font-blue iq-tw-3" style="color: #54cbf5">PERSONALIZE THE LEARNING JOURNEY</h3>
+                    <h3 class="text-uppercase iq-font-blue iq-tw-3 header_sub_text">PERSONALIZE THE LEARNING JOURNEY</h3>
                     <p class="iq-font-white iq-pt-15 iq-mb-40">Mileposts provides a holistic view of every student so educators and administrators can make more informed decisions, help each learner achieve personalized success, and keep parents up to date with their child’s progress</p>
                 </div>
                 <div class="col-lg-6">
