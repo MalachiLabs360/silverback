@@ -12,25 +12,21 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-lg-6">
-                <img class="img-fluid center-block" src="/assets/front/images/drive/home_silverlight_advantage.png" alt="drive10" style="z-index: 9; position: relative;">
+                <img class="img-fluid center-block" src="/assets/front/img/teacher-vitae-faq.jpg" alt="drive10" style="z-index: 9; position: relative;">
             </div>
             <div class="col-md-12 col-lg-6">
                 <div class="iq-accordion iq-mt-50">
                     <div class="iq-ad-block ad-active"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Q: What is Teacher Vitae?</a>
                         <div class="ad-details">
-                            <div class="row">
-                                <div class="col-sm-3"><img alt="#" class="img-fluid" src="/assets/front/images/blog/01.jpg"></div>
-                                <div class="col-sm-9">A: Teacher Vitae is actually two software platforms in one!
+                            A: Teacher Vitae is actually two software platforms in one!
                                     Not only does it support the complete staff evaluation process
                                     it also includes a portfolio where educators collect and catalog
                                     evidence of professional growth. Together, everyone can focus
                                     on all employees being equipped with the skills necessary to
                                     meet or exceed performance expectations.
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Q: What are the top reasons educators chose Teacher Vitae over other solutions?</a>
+                    <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Q: What are the top reasons educators chose Teacher Vitae?</a>
                         <div class="ad-details">A: Teacher Vitae is easy for administrators and teachers to learn
                             and use. Forms are customized to meet the evaluation
                             requirements at both the state and district level. A unique tagging
@@ -40,10 +36,7 @@
                     </div>
                     <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Q: What do you mean by a unique tagging system?</a>
                         <div class="ad-details">
-                            <div class="row">
-                                <div class="col-sm-9">A: Meta tagging allows evaluators and evaluates to correlate and communicate information via an organized system of labels (aka “tags”). Administrators use tags to tie every observation and note to the state and/or district summative evaluation for easy recall and meaningful conversations throughout the year. Educators can share tagged documents with evaluators and other colleagues. This makes it easy for employees to self-identify evidence they feel is emblematic of the professional standards deemed important by the district and/or state. Information needed to effectively complete the summative evaluation is at the fingertips of the evaluator. </div>
-                                <div class="col-sm-3"><img alt="#" class="img-fluid" src="/assets/front/images/blog/01.jpg"></div>
-                            </div>
+                            A: Meta tagging allows evaluators and evaluates to correlate and communicate information via an organized system of labels (aka “tags”). Administrators use tags to tie every observation and note to the state and/or district summative evaluation for easy recall and meaningful conversations throughout the year. Educators can share tagged documents with evaluators and other colleagues. This makes it easy for employees to self-identify evidence they feel is emblematic of the professional standards deemed important by the district and/or state. Information needed to effectively complete the summative evaluation is at the fingertips of the evaluator.
                         </div>
                     </div>
                     <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Q: How do educators access Teacher Vitae?</a>

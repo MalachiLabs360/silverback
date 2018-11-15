@@ -25,6 +25,17 @@ header.menu-sticky .navbar .navbar-brand img {
     height: 100px;
 }
 
+.header_sub_text {
+  font-weight: 300;
+  color: #1b5171;
+  font-size: 52px;
+  line-height: 58px;
+}
+
+.readable {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .footer-form {
   background: url('/assets/front/img/girl_jumping.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -55,6 +66,10 @@ header.menu-sticky .navbar .navbar-brand img {
 
 .heading-title {
     margin-bottom: 60px;
+}
+
+.fa-adj {   
+  padding-top: 10px;
 }
 /* -------------------------------------------------*/
 /* Header */

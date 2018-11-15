@@ -53,7 +53,7 @@ label { font-size: 15px; font-weight: 400; color: #aaaaaa; }
 }
 .cube, .cube * { position: absolute; width: 71px; height: 71px; left: 0; right: 0; top: 0; bottom: 0; }
 .sides { -webkit-animation: rotate 3s ease infinite; animation: rotate 3s ease infinite; -webkit-animation-delay: .8s; animation-delay: .8s; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-transform: rotateX(-37.5deg) rotateY(45deg); transform: rotateX(-37.5deg) rotateY(45deg); }
-.cube .sides * { box-sizing: border-box; background-color: rgba(74, 196, 243, 0.8); border: 5px solid white; }
+.cube .sides * { box-sizing: border-box; background-color: rgba(65, 128, 64, 0.8); border: 5px solid white; }
 .cube .sides .top { -webkit-animation: top-animation 3s ease infinite; animation: top-animation 3s ease infinite; -webkit-animation-delay: 0ms; animation-delay: 0ms; -webkit-transform: rotateX(90deg) translateZ(90px); transform: rotateX(90deg) translateZ(90px); -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; }
 @-webkit-keyframes top-animation {
   0% { opacity: 1; -webkit-transform: rotateX(90deg) translateZ(90px); transform: rotateX(90deg) translateZ(90px); }
@@ -446,8 +446,8 @@ Margin Right
 /*---------------------------------------------------------------------
                             Text Color 
 -----------------------------------------------------------------------*/
-.iq-font-blue { color: #4ac4f3; }
-.iq-font-green { color: #7fc129; }
+.iq-font-blue { color: #4ac4f3; font-weight: 300;}
+.iq-font-green { color: #7fc129; font-weight: 300;}
 .iq-font-white { color: #ffffff; }
 .iq-font-black { color: #333333; }
 .iq-font-light { color: #666666; }

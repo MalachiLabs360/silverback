@@ -4,11 +4,11 @@
             <div class="row">
                 <div class="col-lg-6 home-top-text">
                     <h1 class="text-uppercase iq-font-blue iq-tw-3"><b class="iq-tw-7" style="color: #ffffff">TEACHER VITAE</b></h1>
-                    <h3 class="text-uppercase iq-font-blue iq-tw-3" style="color: #54cbf5">EDUCATOR GROWTH POWERED BY PROFESSIONAL LEARNING PORTFOLIOS</h3>
+                    <h3 class="text-uppercase iq-font-blue iq-tw-3 header_sub_text">EDUCATOR GROWTH by learning portfolios</h3>
                     <p class="iq-font-white iq-pt-15 iq-mb-40">Teacher Vitae, Silverback’s Professional Development platform offers a revolutionary way to look at instructional effectiveness.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img class="banner-img" src="/assets/front/img/edify_screen.png" alt="">
+                    <img class="banner-img" src="/assets/front/img/vitae_screen.png" alt="">
                 </div>
             </div>
         </div>
