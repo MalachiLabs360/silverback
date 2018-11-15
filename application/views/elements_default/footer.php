@@ -1,6 +1,10 @@
 <footer>
     <!-- Footer Info -->
-    <section id="contact-us" class="footer-info white-bg">
+    <?php 
+    $class_name = $this->router->fetch_class();
+    if ($class_name != 'contact') {
+     ?>
+    <section id="contact-us" class="footer-info footer-form white-bg">
         <div class="container">
             <div class="row justify-content-end">
                 <div class="col-md-6 col-lg-4">
@@ -37,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <iframe class="map" id="gmap_canvas" src="https://maps.google.com/maps?q=2963%20E%20Copper%20Point%20Dr%2C%20Meridian%2C%20ID%2083642&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <!-- <iframe class="map" id="gmap_canvas" src="https://maps.google.com/maps?q=2963%20E%20Copper%20Point%20Dr%2C%20Meridian%2C%20ID%2083642&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
     </section>
     <section class="footer-info iq-pt-60">
         <div class="container">
@@ -91,13 +95,17 @@
                     </ul>
                 </div>
             </div>
-            <div class="row iq-mt-40">
-                <div class="col-sm-12 text-center">
-                    <div class="footer-copyright iq-ptb-20">© Copyright 2018 Silverback Learning.</div>
-                </div>
-            </div>
         </div>
     </section>
+    <?php 
+    } 
+    ?>
+    <section class="footer-info iq-pt-60">
+      <div class="text-center grey-bg">
+          <div class="footer-copyright iq-ptb-20">© Copyright 2018 Silverback Learning.</div>
+      </div>
+    </section>
+
 </footer>
 
 <div id="back-to-top">

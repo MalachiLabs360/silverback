@@ -1,4 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import 'color/color-10.css';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  padding:0px;
+}
+
+header .navbar .navbar-brand img {
+    height: 120px;
+}
+
+header .container-fluid {
+    padding: 0 80px;
+}
+
+header.menu-sticky {
+    padding: 0
+}
+
+header.menu-sticky .navbar .navbar-brand img {
+    height: 100px;
+}
+
+.footer-form {
+  background: url('/assets/front/img/girl_jumping.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.iq-get-in {
+  background: rgba(255, 255, 255, 0.75);
+}
 
 .drop {
   cursor: s-resize;
