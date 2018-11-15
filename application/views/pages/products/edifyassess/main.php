@@ -1,6 +1,11 @@
 <?php $params = array(); ?>
-<?php $this->view('pages/products/edifyassess/how_it_works',$params); ?>
-<?php $this->view('pages/products/edifyassess/features',$params); ?>
+<?php $this->view('pages/products/edifyassess/what_is_edify',$params); ?>
+<?php $this->view('pages/products/edifyassess/edify_features',$params); ?>
+<?php $this->view('pages/products/edifyassess/section3',$params); ?>
+<?php $this->view('pages/products/edifyassess/section4',$params); ?>
+<?php $this->view('pages/products/edifyassess/section5',$params); ?>
+<?php $this->view('pages/products/edifyassess/section6',$params); ?>
+<?php $this->view('pages/products/edifyassess/section7',$params); ?>
 <?php $this->view('pages/products/edifyassess/student',$params); ?>
 <?php $this->view('pages/products/edifyassess/study',$params); ?>
 <style>
