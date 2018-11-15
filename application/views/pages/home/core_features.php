@@ -1,5 +1,4 @@
-<!-- Sofbox Specialities -->
-<section class="overview-block-ptb grey-bg">
+<section class="overview-block-ptb grey-bg" id="core-competencies">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -10,10 +9,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-lg-3 col-md-6">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-monitor-outline"></i>
+                    <div class="iq-icon fa-adj">
+                        <i aria-hidden="true" class="fa fa-book"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Personalized Learning Plans</h5>
@@ -23,8 +22,8 @@
             </div>
             <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-settings"></i>
+                    <div class="iq-icon fa-adj">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Scheduling and Analytics</h5>
@@ -32,10 +31,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 r-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-social-googleplus-outline"></i>
+                    <div class="iq-icon fa-adj">
+                        <i class="fa fa-diamond" aria-hidden="true"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Standards-aligned assessment creation</h5>
@@ -43,10 +42,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 r-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-heart-outline"></i>
+                    <div class="iq-icon fa-adj">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Automated online & bubble sheet scoring</h5>
@@ -54,10 +53,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-checkmark-outline"></i>
+                    <div class="iq-icon fa-adj">
+                        <i class="fa fa-users" aria-hidden="true"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Parent Portal</h5>
@@ -65,10 +64,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-color-wand-outline"></i>
+                    <div class="iq-icon fa-adj">
+                        <i class="fa fa-cubes" aria-hidden="true"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Customizable rubrics</h5>
@@ -76,10 +75,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-photos-outline"></i>
+                    <div class="iq-icon fa-adj">
+                        <i class="fa fa-object-group" aria-hidden="true"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Easy Data Integration</h5>
@@ -87,10 +86,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3 col-md-6 iq-mt-30">
+            <div class="col-sm-12 col-lg-3 col-md-6 r4-mt-30">
                 <div class="iq-fancy-box text-center">
-                    <div class="iq-icon">
-                        <i aria-hidden="true" class="ion-ios-videocam-outline"></i>
+                    <div class="iq-icon fa-adj">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
                     </div>
                     <div class="fancy-content">
                         <h5 class="iq-tw-6 iq-pt-20 iq-pb-10">Actionable Data</h5>
@@ -101,4 +100,3 @@
         </div>
     </div>
 </section>
-<!-- Sofbox Specialities END -->

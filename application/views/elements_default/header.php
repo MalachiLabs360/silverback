@@ -34,11 +34,9 @@
                             <li class="nav-item">
                                 <a class="<?= ($class_name == 'main') ? 'nav-link active' : 'nav-link' ?>" href="/">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="<?= ($class_name == 'about') ? 'nav-link active' : 'nav-link' ?>" href="/about">About</a>
-                            </li>
+                            
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle drop" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                                <a class="nav-link drop" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
                                 <div id="dropdown_menu" class="dropdown-menu">
                                     <a id="dropdown_item" class="dropdown-item" href="/products/mileposts">Mileposts</a>
                                     <div class="dropdown-divider"></div>
@@ -47,12 +45,19 @@
                                     <a id="dropdown_item" class="dropdown-item" href="/products/edifyassess">EdifyAssess</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="<?= ($class_name == 'news') ? 'nav-link active' : 'nav-link' ?>" href="/news">News</a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a class="<?= ($class_name == 'training') ? 'nav-link active' : 'nav-link' ?>" href="/training">Training</a>
                             </li>
+                            
+                            <li class="nav-item">
+                                <a class="<?= ($class_name == 'news') ? 'nav-link active' : 'nav-link' ?>" href="/news">News</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="<?= ($class_name == 'about') ? 'nav-link active' : 'nav-link' ?>" href="/about">About</a>
+                            </li>
+                            
                             <li class="nav-item">
                                 <a class="<?= $class_name == 'contact' ? 'nav-link active' : 'nav-link' ?>" href="/contact">Contact</a>
                             </li>
@@ -63,7 +68,6 @@
         </div>
     </div>
 </header>
-<!-- Header End -->
 
 <?php
 switch ($class_name){

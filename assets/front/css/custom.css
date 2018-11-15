@@ -1,4 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import 'color/color-10.css';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  padding:0px;
+}
+
+header .navbar .navbar-brand img {
+    height: 120px;
+}
+
+header .container-fluid {
+    padding: 0 80px;
+}
+
+header.menu-sticky {
+    padding: 0
+}
+
+header.menu-sticky .navbar .navbar-brand img {
+    height: 100px;
+}
+
+.header_sub_text {
+  font-weight: 300;
+  color: #1b5171;
+  font-size: 52px;
+  line-height: 58px;
+}
+
+.readable {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-form {
+  background: url('/assets/front/img/girl_jumping.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.iq-get-in {
+  background: rgba(255, 255, 255, 0.75);
+}
 
 .drop {
   cursor: s-resize;
@@ -16,14 +64,23 @@
   padding: 0px 10px 10px 0px;
 }
 
+.heading-title {
+    margin-bottom: 60px;
+}
+
+.fa-adj {   
+  padding-top: 10px;
+}
 /* -------------------------------------------------*/
 /* Header */
 /* -------------------------------------------------*/
-header.header-green { background: #7fc229; }
+header.header-green { 
+  background: rgba(0, 128, 0, .7); 
+}
 
 #dropdown_menu{
   top: 44px;
-  background: #66c229;
+  background: rgba(102, 194, 41, 0.8);
   text-align: center;
   border: 1px solid #fff;
   border-radius: 0px;
@@ -40,10 +97,28 @@ header.header-green { background: #7fc229; }
 }
 
 #dropdown_item:hover{
-  background: green;
+  background: rgba(0, 128, 0, 0.9);
 }
 
+/* -------------------------------------------------*/
+/* Home */
+/* -------------------------------------------------*/
 
+.goto_about {
+    margin: 20px;
+}
+
+.solution {
+  cursor: pointer;  
+}
+
+.solution img {
+  margin-bottom: 30px;
+}
+
+.r4-mt-30 {
+    margin-top: 30px;
+}
 
 /* -------------------------------------------------*/
 /* Partners */
@@ -127,16 +202,60 @@ header.header-green { background: #7fc229; }
   background: rgba(0, 0, 0, 0.40); 
 }
 
+@media(min-width:320px) {
+
+  .solution {
+    margin-bottom: 40px;
+  }
+  
+}
+
+@media(min-width:500px) {
+  
+  .solution .iq-works-box {
+      height: 330px;
+  }
+  
+}
+
+@media(min-width:700px) {
+
+}
+
 @media(min-width:992px) {
   #partners .iq-works-box {
     height: 420px;
   }
   
-  #mile-post-features .iq-works-box {
-    height: 390px;
-  }
-  
   .client-info p {
     height: 353px;
   }
+
+  .solution {
+    margin-bottom: 0px;
+  }
+  
+  .mileposts-works {
+    height: 400px;
+  }
+  
+  #core-competencies .iq-fancy-box {
+    height: 445px;
+  }
+}
+
+@media(min-width:1000px) {
+  .mileposts-works {
+    height: 450px;
+  }
+  #core-competencies .iq-fancy-box {
+    height: 365px;
+  }
+}
+
+@media(min-width:1050px) {
+  .home-top-text {
+    margin-top: -50px;
+  }
+  
 }

@@ -1,4 +1,3 @@
-<!-- Software Features -->
 <section id="iq-software-features" class="white-bg bg-full-features">
     <div class="container-fluid no-padding">
         <div class="row">
@@ -16,4 +15,3 @@
         </div>
     </div>
 </section>
-<!-- Software Features END -->

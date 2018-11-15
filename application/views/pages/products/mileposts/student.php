@@ -9,7 +9,7 @@
                 <p class="iq-font-15">Districts have ultimate control over the Mileposts functions and data that parents and students can access.</p>
             </div>
             <div class="col-lg-7">
-                <img class="img-fluid" src="/assets/front/img/phone.jpg" alt="drive01">
+                <img class="img-fluid" src="/assets/front/img/student-parent2.jpg" alt="drive01">
             </div>
         </div>
     </div>

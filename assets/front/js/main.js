@@ -1,34 +1,3 @@
-/*
-
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 3.0
-Design and Developed by: iqonicthemes.in
-
-*/
-
-
-/*================================================
-[  Table of contents  ]
-================================================
-
-:: jQuery Appear
-:: Modernizr
-:: CountDown Clock
-:: jquery.countTo
-:: Parallax [Jarallax]
-:: Owl Carousel
-:: MediaElement.js
-:: Retina.js
-:: WOW.js
-:: Magnific Popup
-:: particles
-:: Skrollr
-
-======================================
-[ End table content ]
-======================================*/
-
 /*************************
 jQuery Appear
 *************************/

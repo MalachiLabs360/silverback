@@ -1,14 +1,3 @@
-/*
-
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 3.0
-Design and Developed by: iqonicthemes.in
-
-NOTE: This file contains the styling for responsive Template.
-
-*/
-
 /*****************
 ================================================
  (  Media Queries  )
@@ -75,7 +64,6 @@ NOTE: This file contains the styling for responsive Template.
 	.counter span { font-size: 36px; }
 	.iq-footer-box .iq-icon i { margin-right: 9px; }
 	.iq-blog-meta ul li { font-size: 15px; }
-	.iq-fancy-box { padding: 40px 13px 25px 13px; }
 	.iq-banner-04 .banner-text h1 { font-size: 46px; }
 	.iq-banner-04 .banner-text p.iq-mb-40 { margin-bottom: 20px; }
 	.Product-works { padding-bottom: 80px; }

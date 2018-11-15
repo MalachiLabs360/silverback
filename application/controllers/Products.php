@@ -20,7 +20,7 @@ class Products extends ME_Controller {
 		$this->page['title']	= 'Silverback Mileposts';
  		$params = array();
  		$this->load->view('pages/products/mileposts/main',$params);
- 	 }
+ 	}
 	 
 	 public function edifyassess()
 	 {

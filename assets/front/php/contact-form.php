@@ -1,5 +1,5 @@
 <?php
-$ToEmail = 'nikunjk1993@gmail.com';
+$ToEmail = 'destinysage@gmail.com';
 $EmailSubject = 'User Contact Information';
 	$mailheader = "From: ".$_POST["email"]."\r\n";
 		$mailheader .= "Reply-To: ".$_POST["email"]."\r\n";

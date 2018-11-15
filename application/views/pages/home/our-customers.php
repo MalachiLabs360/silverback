@@ -1,4 +1,3 @@
-<!-- Loved By Our Customers -->
 <section class="overview-block-ptb white-bg iq-loved-customers">
     <div class="container">
         <div class="row">
@@ -59,4 +58,3 @@
         </div>
     </div>
 </section>
-<!-- Loved By Our Customers END -->

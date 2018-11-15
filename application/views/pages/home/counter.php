@@ -1,8 +1,7 @@
-<!-- Counter -->
 <div class="iq-pt-80 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/img/header_girl2.jpg);">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 text-left">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-left r-mt-30">
                 <div class="counter"> <i class="ion-ios-folder-outline " aria-hidden="true"></i>
                     <div class="counter-date">
                         <label class="iq-font-white text-uppercase">States</label>
@@ -10,7 +9,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 text-left r4-mt-30">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-left r-mt-30">
                 <div class="counter"> <i class="ion-ios-paper-outline " aria-hidden="true"></i>
                     <div class="counter-date">
                         <label class="iq-font-white text-uppercase">Districts</label>
@@ -59,4 +58,3 @@
         </div>
     </div>
 </div>
-<!-- Counter END -->

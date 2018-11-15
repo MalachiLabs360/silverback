@@ -1,10 +1,9 @@
 <?php $params = array(); ?>
-<?php $this->view('pages/products/edifyassess/how_it_works',$params); ?>
+<?php $this->view('pages/products/edifyassess/what_is_edify',$params); ?>
+<?php $this->view('pages/products/edifyassess/edify_features',$params); ?>
 <?php $this->view('pages/products/edifyassess/features',$params); ?>
-<?php $this->view('pages/products/edifyassess/student',$params); ?>
-<?php $this->view('pages/products/edifyassess/study',$params); ?>
-<style>
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.5) !important;
-}
-</style>
+
+<?php $this->view('pages/products/edifyassess/standards_aligned',$params); ?>
+<?php $this->view('pages/products/edifyassess/flexible_scoring',$params); ?>
+<?php $this->view('pages/products/edifyassess/cloud_hosted',$params); ?>
+<?php $this->view('pages/products/edifyassess/team_based',$params); ?>

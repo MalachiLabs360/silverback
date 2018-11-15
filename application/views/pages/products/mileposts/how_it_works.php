@@ -10,17 +10,17 @@
         </div>
         <div class="row">
             <div class="col-md-12 col-lg-3">
-                <div class="iq-works-box text-left">
-                    <div class=" text-left">
+                <div class="iq-works-box text-left mileposts-works">
+                    <div class="text-center">
                         <img src="/assets/front/images/services/icon-7.png" class="img-fluid" alt="#">
                     </div>
                     <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Personalized Learning Plans</h6>
-                    <p>Testing accommodations & designated supports can be shared and maintained across assessment platforms.</p>
+                    <p>Tailor for academic need or learner type for any district or school need via customizable templates.</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-3 r-mt-40">
-                <div class="iq-works-box text-left">
-                    <div class="text-left">
+                <div class="iq-works-box text-left mileposts-works">
+                    <div class="text-center">
                         <img src="/assets/front/images/services/icon-8.png" class="img-fluid" alt="#">
                     </div>
                     <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Longitudinal Learning Portfolio</h6>
@@ -28,16 +28,16 @@
                 </div>
             </div>
             <div class="col-md-12 col-lg-3 r-mt-40">
-                <div class="iq-works-box text-left">
-                    <div class="text-left">
+                <div class="iq-works-box text-left mileposts-works">
+                    <div class="text-center">
                         <img src="/assets/front/images/services/icon-9.png" class="img-fluid" alt="#"></div>
                     <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Multi-tier Intervention System</h6>
                     <p>A customizable platform for district intervention methods and support packages.</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-3 r-mt-40">
-                <div class="iq-works-box text-left">
-                    <div class="text-left">
+                <div class="iq-works-box text-left mileposts-works">
+                    <div class="text-center">
                         <img src="/assets/front/images/services/icon-10.png" class="img-fluid" alt="#"></div>
                     <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Student Achievement Data</h6>
                     <p>Provides the ability to view side by side analysis of student’s results across comparable assessments.</p>

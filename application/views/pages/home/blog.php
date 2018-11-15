@@ -1,4 +1,3 @@
-<!-- Latest Blog Post -->
 <section id="blog" class="overview-block-ptb grey-bg iq-blog">
     <div class="container">
         <div class="row">
@@ -183,4 +182,3 @@
         </div>
     </div>
 </section>
-<!-- Latest Blog Post END -->

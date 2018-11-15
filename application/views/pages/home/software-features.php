@@ -1,4 +1,3 @@
-<!-- Software Features -->
 <section id="software-features" class="overview-block-ptb iq-mt-50 software">
     <div class="iq-software-demo">
         <img class="img-fluid" src="/assets/front/images/drive/home_silverlight_advantage.png" alt="drive05">
@@ -30,4 +29,3 @@
         </span>
     </div>
 </section>
-<!-- Software Features END -->

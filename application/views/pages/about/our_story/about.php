@@ -1,4 +1,3 @@
-<!-- About -->
 <section id="iq-about-us" class="overview-block-ptb">
     <div class="container">
         <div class="row">
@@ -12,4 +11,3 @@
         </div>
     </div>
 </section>
-<!-- About END -->

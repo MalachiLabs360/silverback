@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $page['title'] ?></title>
+    <link rel="shortcut icon" href="/assets/front/img/favicon.gif">
     <?php
     $params = array();
     $this->view('elements_default/_css',$params);
