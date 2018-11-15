@@ -21,7 +21,7 @@
                 <div class="clearfix"></div>
             </div>
             <div class="col-lg-6 align-self-center">
-                <img class="iq-works-img" src="/assets/front/img/spotlighted.jpg" alt="drive01">
+                <img class="iq-works-img" src="/assets/front/img/teacher-vitae2.jpg" alt="drive01">
             </div>
         </div>
     </div>
