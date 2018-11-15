@@ -192,7 +192,7 @@ header.header-green {
   .solution {
     margin-bottom: 40px;
   }
-
+  
 }
 
 @media(min-width:500px) {
@@ -208,7 +208,6 @@ header.header-green {
 }
 
 @media(min-width:992px) {
-  
   #partners .iq-works-box {
     height: 420px;
   }
@@ -220,10 +219,28 @@ header.header-green {
   .solution {
     margin-bottom: 0px;
   }
+  
+  .mileposts-works {
+    height: 400px;
+  }
+  
+  #core-competencies .iq-fancy-box {
+    height: 445px;
+  }
+}
+
+@media(min-width:1000px) {
+  .mileposts-works {
+    height: 450px;
+  }
+  #core-competencies .iq-fancy-box {
+    height: 365px;
+  }
 }
 
 @media(min-width:1050px) {
   .home-top-text {
     margin-top: -50px;
   }
+  
 }

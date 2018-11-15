@@ -1,4 +1,4 @@
-<section id="iq-services" class="overview-block-ptb iq-mt-80 how-works grey-bg">
+<section id="iq-services" class="overview-block-ptb how-works grey-bg">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
