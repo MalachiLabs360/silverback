@@ -1,5 +1,4 @@
 <section id="iq-home" class="iq-banner-07 iq-bg-over iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/img/header_girls.jpg); height: 100vh;">
-    <!-- BACKGROUND PARTICLES -->
     <div class="container">
         <div class="banner-text">
             <div class="row">

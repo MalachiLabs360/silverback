@@ -1,5 +1,4 @@
-<!-- Counter -->
-<div class="iq-pt-80 iq-counter-box iq-bg-over iq-over-blue-90 iq-font-white iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/images/bg/02.jpg);">
+<div class="iq-counter-box iq-bg-over">
     <div class="container">
         <div class="counter-info iq-mt-60 iq-pt-40">
             <div class="row">
@@ -24,4 +23,3 @@
         </div>
     </div>
 </div>
-<!-- Counter END -->

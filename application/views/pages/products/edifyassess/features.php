@@ -1,25 +1,38 @@
-<section id="iq-services" class="overview-block-ptb iq-mt-80 how-works grey-bg">
+<section id="great-features" class="life-work-1 overview-block-pt software">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <h2 class="iq-tw-6 iq-mb-25">Spotlighted Initiatives</h2>
-                <p class="iq-font-15">A powerful solution enabling districts to effectively  engage in and deliver on key initiatives.</p>
-                <ul class="iq-mt-40 iq-list float-left">
-                    <li class="iq-tw-7"><i class="ion-wand iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">K-3 Plans & Interventions</span></li>
-                    <li class="iq-tw-7"><i class="ion-levels iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">ELL/ELA Programs</span></li>
-                    <li class="iq-tw-7"><i class="ion-help-buoy iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">MS/HS Differentiated Lessons</span></li>
-                    <li class="iq-tw-7"><i class="ion-asterisk iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Multi-tiered System of Supports</span></li>
-                </ul>
-                <ul class="iq-mt-40 iq-list float-sm-right float-left">
-                    <li class="iq-tw-7"><i class="ion-wand iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Project Based Learning Plans</span></li>
-                    <li class="iq-tw-7"><i class="ion-levels iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">In-Depth Analytics & Insights</span></li>
-                    <li class="iq-tw-7"><i class="ion-help-buoy iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Behaviour Support</span></li>
-                    <li class="iq-tw-7"><i class="ion-asterisk iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">“Whole Child” Eco-System</span></li>
-                </ul>
-                <div class="clearfix"></div>
+            <div class="col-lg-6 col-md-12">
+                <img class="img-fluid" src="/assets/front/images/drive/16.jpg" alt="drive05">
             </div>
-            <div class="col-lg-6 align-self-center">
-                <img class="iq-works-img" src="/assets/front/img/spotlighted.jpg" alt="drive01">
+            <div class="col-lg-6 col-md-12">
+                <h2 class="iq-tw-6 iq-mt-70">Assessment Generator</h2>
+                <p class="iq-font-15">EdifyAssess uses intelligent algorithms to simplify the task of creating valid assessments. The software automatically takes care of several complex aspects of building an accurate assessment and educators do not have to spend their valuable time in fine-tuning these aspects. These automatic features include the following:</p>
+                <ul class="iq-mt-40 iq-list">
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Items are selected to match a specific standard or set of standards.</span></li>
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Previously used items are sequestered so that they are not included in future assessments.</span></li>
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">The item difficulty and DOK level is automatically matched to the grade level.</span></li>
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">The items are sequenced in a statistically valid manner so as to improve learner participation.</span></li>
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Psychometric parameters for the items are automatically computed.</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="blog" class="overview-block-ptb iq-bg-over  iq-over-blue-80 iq-tool-feature  iq-font-white">
+    <div class="soft-about">
+        <img class="box-img1 img-fluid wow fadeInUp" alt="" src="/assets/front/images/device/awesome-img1.png" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
+        <img class="box-img6 img-fluid wow fadeInUp" alt="" src="/assets/front/images/device/awesome-img6.png" data-wow-duration="2.5s" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeInUp;">
+        <img class="box-img3 img-fluid wow rotateIn" alt="" src="/assets/front/images/device/awesome-img3.png" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: rotateIn;">
+        <img class="box-img4 img-fluid wow fadeInRight" alt="" src="images/device/awesome-img4.png" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;">
+        <img class="box-img5 img-fluid wow rotateInUpRight" alt="" src="/assets/front/images/device/awesome-img5.png" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: rotateInUpRight;">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h2 class="iq-tw-6 iq-mt-100 iq-mb-20 iq-font-white">Team Based</h2>
+                <p class="iq-font-15">EdifyAssess can be used by teams to collaborate on their work. It equips school systems and educational publishers to efficiently create and manage large-volume item and assessment banks. Its intelligent workflow is designed for collaborative team production of aligned assessments between curriculum developers, psychometricians, teachers, administrators, and assessment coordinators.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 soft-about">
             </div>
         </div>
     </div>

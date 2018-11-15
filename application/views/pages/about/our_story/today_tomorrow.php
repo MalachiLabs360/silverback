@@ -1,4 +1,3 @@
-<!-- Who is Sofbox ? -->
 <section id="iq-services" class="overview-block-ptb r-mt-40 ">
     <div class="container">
         <div class="row">
@@ -13,4 +12,3 @@
         </div>
     </div>
 </section>
-<!-- Who is Sofbox ? END -->

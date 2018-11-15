@@ -1,36 +1,3 @@
-/*
-
-Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
-Version: 3.0
-Design and Developed by: iqonicthemes.in
-
-*/
-/*================================================
-[  Table of contents  ]
-================================================
-
-:: page loader
-:: Back to top
-:: Accordion
-:: hidemenu
-:: Amazing Tab
-:: Header
-:: Img Skrollr
-:: Magnific Popup
-:: countdown
-:: owl-carousel 
-:: Progress Bar
-:: widget
-:: counter
-:: Screenshots silder
-:: Wow Animation
-:: Contact from
-
-======================================
-[ End table content ]
-======================================*/
-
 "use strict";
 
 /*************************

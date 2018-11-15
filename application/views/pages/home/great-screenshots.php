@@ -1,4 +1,3 @@
-<!-- Great Screenshots -->
 <section id="great-screenshots" class="overview-block-ptb iq-bg-over  iq-over-blue-80 iq-screenshots iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/images/bg/07.jpg);">
     <div class="container">
         <div class="row">
@@ -41,4 +40,3 @@
         </div>
     </div>
 </section>
-<!-- Great Screenshots END -->

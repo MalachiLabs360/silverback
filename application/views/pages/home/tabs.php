@@ -1,4 +1,3 @@
-<!-- Tab Features -->
 <div id="features" class="iq-amazing-tab white-bg">
     <div class="container">
         <div class="row">
@@ -33,4 +32,3 @@
         </div>
     </div>
 </div>
-<!-- Tab Features END -->

@@ -1,4 +1,3 @@
-<!-- Partner Carousel -->
 <div class="iq-our-clients white-bg iq-ptb-50">
     <div class="container">
         <div class="row">
@@ -18,4 +17,3 @@
         </div>
     </div>
 </div>
-<!-- Partner Carousel END -->

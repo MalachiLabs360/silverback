@@ -1,4 +1,3 @@
-<!-- Banner -->
 <section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="mp4:/assets/front/video/360.mp4">
     <div class="container-fluid">
         <div class="banner-text">

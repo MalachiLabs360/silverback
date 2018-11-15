@@ -1,4 +1,3 @@
-<!-- How it Works -->
 <section id="solutions" class="overview-block-ptb it-works">
     <div class="container">
         <div class="row">
@@ -37,4 +36,3 @@
         </div>
     </div>
 </section>
-<!-- How it Works END -->

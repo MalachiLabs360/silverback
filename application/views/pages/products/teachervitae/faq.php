@@ -1,4 +1,3 @@
-<!-- Frequently Asked Questions -->
 <section class="overview-block-ptb white-bg iq-asked">
     <div class="container">
         <div class="row">
@@ -57,4 +56,3 @@
         </span>
     </div>
 </section>
-<!-- Frequently Asked Questions END -->

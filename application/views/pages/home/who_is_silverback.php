@@ -1,4 +1,3 @@
-<!-- Who is Sofbox ? -->
 <section id="how-works" class="overview-block-ptb how-works">
     <div class="container">
         <div class="row">
@@ -29,4 +28,3 @@
         </span>
     </div>
 </section>
-<!-- Who is Sofbox ? END -->

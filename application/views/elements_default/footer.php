@@ -1,47 +1,14 @@
 <footer>
-    <!-- Footer Info -->
     <?php 
     $class_name = $this->router->fetch_class();
     if ($class_name != 'contact') {
      ?>
-    <section id="contact-us" class="footer-info footer-form white-bg">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-md-6 col-lg-4">
-                    <div class="iq-get-in">
-                        <h4 class="iq-tw-7 iq-mb-20">Get in Touch</h4>
-                        <div id="formmessage">Success/Error Message Goes Here</div>
-                        <form id="contact" method="post">
-                            <div class="contact-form">
-                                <div class="section-field">
-                                    <input class="require" id="contact_name" type="text" placeholder="Name*" name="name">
-                                </div>
-                                <div class="section-field">
-                                    <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
-                                </div>
-                                <div class="section-field">
-                                    <input class="require" id="contact_phone" type="text" placeholder="Phone*" name="phone">
-                                </div>
-                                <div class="section-field textarea">
-                                    <textarea id="contact_message" class="input-message require" placeholder="Comment*" rows="5" name="message"></textarea>
-                                </div>
-                                <div class="section-field iq-mt-20">
-                                    <div class="g-recaptcha" data-sitekey="6LcUNXoUAAAAAAWrvZjMng4XZolrL8EOHqUFvlZT"></div>
-                                </div>
-                                <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
-                                <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
-                                    <strong>Thank You, Your message has been received.</strong>.
-                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- <iframe class="map" id="gmap_canvas" src="https://maps.google.com/maps?q=2963%20E%20Copper%20Point%20Dr%2C%20Meridian%2C%20ID%2083642&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+    <section id="contact-us" class="overview-block-ptb text-center footer-info footer-form white-bg">
+      <div class="container">
+          <h2 class="iq-tw-6 iq-pb-20">Get Started Today</h2>
+          <p><b>Silverback Learning can help your district.</b></p>
+          <a href="/contact" class="button bt-black iq-mt-10">Let's Go</a>
+      </div>
     </section>
     <section class="footer-info iq-pt-60">
         <div class="container">

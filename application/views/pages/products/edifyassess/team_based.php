@@ -1,5 +1,4 @@
-<!-- Software Features -->
-<section id="software-features" class="overview-block-ptb iq-mt-50 software">
+<section class="overview-block-ptb iq-mt-50 software">
     <div class="iq-software-demo">
         <img class="img-fluid" src="/assets/front/images/assess-pbr.png" alt="drive05">
     </div>
@@ -23,4 +22,3 @@
                 </span>
     </div>
 </section>
-<!-- Software Features END -->

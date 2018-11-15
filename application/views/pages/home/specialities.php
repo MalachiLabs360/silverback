@@ -1,4 +1,3 @@
-<!-- Sofbox Specialities -->
 <section class="overview-block-ptb grey-bg">
     <div class="container">
         <div class="row">
@@ -101,4 +100,3 @@
         </div>
     </div>
 </section>
-<!-- Sofbox Specialities END -->

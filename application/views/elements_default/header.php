@@ -68,7 +68,6 @@
         </div>
     </div>
 </header>
-<!-- Header End -->
 
 <?php
 switch ($class_name){
