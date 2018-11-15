@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <img class="img-fluid" src="/assets/front/images/drive/16.jpg" alt="drive05">
+                <img class="img-fluid" src="/assets/front/img/book-child.jpg" alt="Assessment Generator">
             </div>
             <div class="col-lg-6 col-md-12">
                 <h2 class="iq-tw-6 iq-mt-70">Assessment Generator</h2>
@@ -20,11 +20,7 @@
 </section>
 <section id="blog" class="overview-block-ptb iq-bg-over  iq-over-blue-80 iq-tool-feature  iq-font-white">
     <div class="soft-about">
-        <img class="box-img1 img-fluid wow fadeInUp" alt="" src="/assets/front/images/device/awesome-img1.png" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
-        <img class="box-img6 img-fluid wow fadeInUp" alt="" src="/assets/front/images/device/awesome-img6.png" data-wow-duration="2.5s" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeInUp;">
-        <img class="box-img3 img-fluid wow rotateIn" alt="" src="/assets/front/images/device/awesome-img3.png" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: rotateIn;">
-        <img class="box-img4 img-fluid wow fadeInRight" alt="" src="images/device/awesome-img4.png" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;">
-        <img class="box-img5 img-fluid wow rotateInUpRight" alt="" src="/assets/front/images/device/awesome-img5.png" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: rotateInUpRight;">
+        <img class="box-img6 img-fluid wow fadeInUp" alt="" src="/assets/front/img/edifylearning1.jpg" data-wow-duration="2.5s" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeInUp;">
     </div>
     <div class="container">
         <div class="row">

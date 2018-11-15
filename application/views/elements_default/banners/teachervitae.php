@@ -1,4 +1,4 @@
-<section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="mp4:/assets/front/video/man_teaching.mp4">
+<section id="iq-home" class="iq-banner overview-block-pt iq-bg-over iq-over-blue-90 jarallax" data-jarallax-video="mp4:/assets/front/video/blurred_people_walking.mp4">
     <div class="container">
         <div class="banner-text">
             <div class="row">
