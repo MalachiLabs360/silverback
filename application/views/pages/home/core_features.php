@@ -1,4 +1,4 @@
-<section class="overview-block-ptb grey-bg">
+<section class="overview-block-ptb grey-bg" id="core-competencies">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
