@@ -17,8 +17,6 @@ class Contact extends ME_Controller {
     }
 
     public function sendSalesInfo(){
-        //$this->page['template'] = 'default_json.php';
-        //$name = json_decode($this->input->post())
         $product = $_POST['message'];
 
         mail("gainesagregory@gmail.com", "Subject", $product);
@@ -42,32 +40,16 @@ class Contact extends ME_Controller {
 
 
         mail("gainesagregory@gmail.com", "Customer Support", $full_message);
+        mail("destiny.sage@gmail.com", "Customer Support", $full_message);
 
-       // $message = $_POST[];
-        //mail("gainesagregory@gmail.com", "Subject", "Message");
-        /*$this->page['template'] = 'default_json.php';
-        $form_values 	= json_decode($this->input->post('form_values',TRUE));
-        $validate 		= FALSE;
-        $message 			= 'Email and Password do not match';
-        $redirect_url = '';
+        /*$this->load->library('email');
 
-        if (!empty($form_values->mode)) {
-            $client_id = $this->client_model->validate_login('admin',$form_values->email,$form_values->password);
+        $this->email->from('mayhemg@yahoo.com', 'SilverBack');
+        $this->email->to('gainesagregory@gmail.com');
 
-            if (!empty($client_id)) {
-                $this->session->set_userdata('admin_id', $client_id);
-                $redirect_url = '/admin/general/?page=dashboard';
-                $validate = TRUE;
-                $message = '';
-            }
+        $this->email->subject('Customer Support');
+        $this->email->message($full_message);
 
-        }
-
-        $return['status'] 	= $validate;
-        $return['url'] 			= $redirect_url;
-        $return['message'] 	= $message;
-
-        $this->load->view('elements_default/json', compact('return'));*/
-
+        $this->email->send();*/
     }
 }
