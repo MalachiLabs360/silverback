@@ -6,4 +6,3 @@
 <?php $this->view('pages/products/edifyassess/standards_aligned',$params); ?>
 <?php $this->view('pages/products/edifyassess/flexible_scoring',$params); ?>
 <?php $this->view('pages/products/edifyassess/cloud_hosted',$params); ?>
-<?php $this->view('pages/products/edifyassess/team_based',$params); ?>

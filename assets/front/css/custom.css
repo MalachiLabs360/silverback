@@ -210,6 +210,12 @@ header.header-green {
   
 }
 
+@media(min-width:300px) {
+  .iq-amazing-tab .nav.nav-tabs li a i { 
+    display:none; 
+  }
+}
+
 @media(min-width:500px) {
   
   .solution .iq-works-box {
@@ -246,16 +252,25 @@ header.header-green {
 
 @media(min-width:1000px) {
   .mileposts-works {
-    height: 450px;
+    height: 440px;
   }
   #core-competencies .iq-fancy-box {
     height: 365px;
   }
+  
 }
 
-@media(min-width:1050px) {
+@media(min-width:1024px) {
   .home-top-text {
     margin-top: -50px;
   }
-  
+  .iq-amazing-tab .nav.nav-tabs li a i { 
+    display:inline-block; 
+  }
+}
+
+@media(min-width:1200px) {
+  .mileposts-works {
+    height: 400px;
+  }
 }
