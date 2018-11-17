@@ -371,7 +371,7 @@ Contact from
 Contact from
 *************************/
 function contactfrom() {
-    $('#contact').submit(function(e) {
+    $('#contact_sales').submit(function(e) {
         var flag = 0;
         e.preventDefault(); // Prevent Default Submission
         $('.require').each(function() {
@@ -385,39 +385,59 @@ function contactfrom() {
             }
         });
 
-
-        if ($('.g-recaptcha').length > 0) {
-            if (grecaptcha.getResponse() == "") {
-                flag = 1;
-                alert('Please verify Recaptch');
-
-            } else {
-                flag = 0;
-            }
-        }
-
         if (flag == 0) {
             $.ajax({
-                    url: 'php/contact-form.php',
+                    url: '/contact/sendSalesInfo',
                     type: 'POST',
-                    data: $("#contact").serialize() // it will serialize the form data
+                    data: $("#contact_sales").serialize() // it will serialize the form data
                 })
                 .done(function(data) {
-                    $("#success").show();
-                    $('#contact')[0].reset();
+                    alert("Sending");
+                    $("#success_sales").show();
+                    $('#contact_sales')[0].reset();
                 })
                 .fail(function() {
                     alert('Ajax Submit Failed ...');
                 });
         }
+    });
 
+    $('#contact_support').submit(function(e) {
+        var flag = 0;
+        e.preventDefault(); // Prevent Default Submission
+        $('.require').each(function() {
+            if ($.trim($(this).val()) == '') {
+                $(this).css("border", "1px solid red");
+                e.preventDefault(); // Prevent Default Submission
+                flag = 1;
+            } else {
+                $(this).css("border", "1px solid grey");
+                flag = 0;
+            }
+        });
+
+        if (flag == 0) {
+            var fullData = 'product='.concat(document.getElementById("inputStateSupport").value).concat($("#contact_support").serialize());
+            $.ajax({
+                url: '/contact/sendSupportInfo',
+                type: 'POST',
+                data: fullData, // it will serialize the form data
+            })
+                .done(function(data) {
+                    alert("Sending support");
+                    $("#success_support").show();
+                    $('#contact_support')[0].reset();
+                })
+                .fail(function() {
+                    alert('Ajax Submit Failed ...');
+                });
+        }
     });
 }
 
-
 /*************************
-All function are called here 
-*************************/
+ All function are called here
+ *************************/
 $(document).ready(function() {
     backtotop(),
     popupgallery(),

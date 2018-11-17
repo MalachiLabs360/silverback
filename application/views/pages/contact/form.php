@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <form id="contact" method="post">
+        <form id="contact_sales" method="post">
             <div class="contact-form">
                 <div class="section-field">
                     <input class="require" id="contact_name" type="text" placeholder="Full Name*" name="name">
@@ -52,7 +52,7 @@
                 </div>
                 <div class="required selection-field mb-3">
                     <p><b>How did you hear about us?</b></p>
-                    <select id="inputState" class="form-control">
+                    <select id="inputStateSales" class="form-control">
                         <option>Conference</option>
                         <option>Website</option>
                         <option>Email</option>
@@ -68,11 +68,8 @@
                 <div class="section-field">
                     <input class="require" id="how_can_we_help" type="text" placeholder="How can we help you?*" name="howcan">
                 </div>
-                <div class="section-field iq-mt-20">
-                    <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
-                </div>
                 <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
-                <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
+                <div class="alert alert-success alert-dismissible fade show" role="alert" id="success_sales">
                     <strong>Thank You, Your message has been received.</strong>.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -90,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <form id="contact" method="post">
+        <form id="contact_support" method="post">
             <div class="contact-form">
                 <div class="section-field">
                     <input class="require" id="contact_name" type="text" placeholder="Full Name*" name="name">
@@ -106,7 +103,7 @@
                 </div>
                 <div class="selection-field mb-3">
                     <p><b>Product:</b></p>
-                    <select id="inputState" class="form-control">
+                    <select id="inputStateSupport" class="form-control">
                         <option selected>Mileposts</option>
                         <option>Teacher Vitae</option>
                         <option>EdifyAssess</option>
@@ -117,11 +114,8 @@
                     <p><b>Problem Description</b></p>
                     <textarea id="contact_message" class="input-message require" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
                 </div>
-                <div class="section-field iq-mt-20">
-                    <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
-                </div>
                 <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
-                <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
+                <div class="alert alert-success alert-dismissible fade show" role="alert" id="success_support">
                     <strong>Thank You, Your message has been received.</strong>.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
