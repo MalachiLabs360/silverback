@@ -417,7 +417,7 @@ function contactfrom() {
         });
 
         if (flag == 0) {
-            var fullData = 'product='.concat(document.getElementById("inputStateSupport").value).concat($("#contact_support").serialize());
+            var fullData = 'product='.concat(document.getElementById("inputStateSupport").value).concat('&').concat($("#contact_support").serialize());
             $.ajax({
                 url: '/contact/sendSupportInfo',
                 type: 'POST',
