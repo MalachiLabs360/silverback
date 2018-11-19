@@ -40,7 +40,7 @@ class Contact extends ME_Controller {
 
 
         mail("gainesagregory@gmail.com", "Customer Support", $full_message);
-        mail("destiny.sage@gmail.com", "Customer Support", $full_message);
+        //mail("destiny.sage@gmail.com", "Customer Support", $full_message);
 
         /*$this->load->library('email');
 
