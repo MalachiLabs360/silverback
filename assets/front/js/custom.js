@@ -428,8 +428,6 @@ function contactfrom() {
                     data: fullData, // it will serialize the form data
                 })
                 .done(function(data) {
-                    alert("Sending sales");
-                    alert(fullData);
                     $("#success_sales").show();
                     $("#contact_sales")[0].reset();
                 })
@@ -460,8 +458,6 @@ function contactfrom() {
                 data: fullData, // it will serialize the form data
             })
                 .done(function(data) {
-                    alert(fullData);
-                    alert("Sending support");
                     $("#success_support").show();
                     $('#contact_support')[0].reset();
                 })
@@ -474,18 +470,18 @@ function contactfrom() {
 
 // Attach listener to checkboxes
 function attachReferralListener() {
-    document.getElementById("inputStateSales").addEventListener("click", checkReferralCollapse);
+    $("#inputStateSales").on('click', checkReferralCollapse);
 }
 
 // If referral box is selected then show box asking who referred, otherwise hide collapse box
 function checkReferralCollapse() {
-    if (document.getElementById("inputStateSales").value === "Referral") {
+    if ($("#inputStateSales").val() === "Referral") {
         $('.collapse').collapse('show');
-        document.getElementById("referral_info").classList.add("require_sales");
+        $("#referral_info").addClass("require_sales");
     }
     else {
         $('.collapse').collapse('hide');
-        document.getElementById("referral_info").classList.remove("require_sales");
+        $("#referral_info").removeClass("require_sales");
     }
 }
 /*************************
