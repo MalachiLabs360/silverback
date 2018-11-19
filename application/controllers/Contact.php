@@ -17,9 +17,27 @@ class Contact extends ME_Controller {
     }
 
     public function sendSalesInfo(){
-        $product = $_POST['message'];
+        $name = $_POST['name'];
+        $district = $_POST['district'];
+        $email = $_POST['email'];
+        $position = $_POST['position'];
+        $number = $_POST['number'];
+        $referral = $_POST['referral'];
+        $help = $_POST['help'];
+        $products = $_POST['products'];
 
-        mail("gainesagregory@gmail.com", "Subject", $product);
+        $full_message =
+            'Name: ' . $name . PHP_EOL .
+            'District: ' . $district . PHP_EOL .
+            'Email: ' . $email . PHP_EOL .
+            'Position: ' . $position . PHP_EOL .
+            'Number: ' . $number . PHP_EOL .
+            'Referral: ' . $referral . PHP_EOL .
+            'Help: ' . $help . PHP_EOL .
+            'Products : ' . $products . PHP_EOL;
+
+
+        mail("gainesagregory@gmail.com", "Sales Info", $full_message);
     }
 
     public function sendSupportInfo(){
