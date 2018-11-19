@@ -367,23 +367,39 @@ function wowanimation() {
 /*************************
 Contact from
 *************************/
-/*************************
-Contact from
-*************************/
 function contactfrom() {
+
     $('#contact_sales').submit(function(e) {
         var flag = 0;
         e.preventDefault(); // Prevent Default Submission
-        $('.require').each(function() {
+
+        // Check text inputs
+        $('.require_sales').each(function() {
             if ($.trim($(this).val()) == '') {
                 $(this).css("border", "1px solid red");
                 e.preventDefault(); // Prevent Default Submission
                 flag = 1;
             } else {
                 $(this).css("border", "1px solid grey");
-                flag = 0;
             }
         });
+
+        // Check how many checkboxes are checked
+        var checked = 0;
+
+        $("input[name=interest_box]:checked").each(function () {
+            checked++;
+        });
+
+        // Continues if atleast one box is checked, makes boxes red if otherwise
+        if (checked == 0){
+            $('#interest_box_form').css("border", "1px solid red");
+            e.preventDefault(); // Prevent Default Submission
+            flag = 1;
+        }
+        else{
+            $('#interest_box_form').css("border", "transparent");
+        }
 
         if (flag == 0) {
             $.ajax({
@@ -392,9 +408,9 @@ function contactfrom() {
                     data: $("#contact_sales").serialize() // it will serialize the form data
                 })
                 .done(function(data) {
-                    alert("Sending");
+                    alert("Sending sales");
                     $("#success_sales").show();
-                    $('#contact_sales')[0].reset();
+                    $("#contact_sales")[0].reset();
                 })
                 .fail(function() {
                     alert('Ajax Submit Failed ...');
@@ -405,14 +421,13 @@ function contactfrom() {
     $('#contact_support').submit(function(e) {
         var flag = 0;
         e.preventDefault(); // Prevent Default Submission
-        $('.require').each(function() {
+        $('.require_support').each(function() {
             if ($.trim($(this).val()) == '') {
                 $(this).css("border", "1px solid red");
                 e.preventDefault(); // Prevent Default Submission
                 flag = 1;
             } else {
                 $(this).css("border", "1px solid grey");
-                flag = 0;
             }
         });
 
@@ -435,6 +450,22 @@ function contactfrom() {
     });
 }
 
+// Attach listener to checkboxes
+function attachReferralListener() {
+    document.getElementById("inputStateSales").addEventListener("click", checkReferralCollapse);
+}
+
+// If referal box is selected then show box asking who referred, otherwise hide collapse box
+function checkReferralCollapse() {
+    if (document.getElementById("inputStateSales").value === "Referral") {
+        $('.collapse').collapse('show');
+        document.getElementById("referral_info").classList.add("require_sales");
+    }
+    else {
+        $('.collapse').collapse('hide');
+        document.getElementById("referral_info").classList.remove("require_sales");
+    }
+}
 /*************************
  All function are called here
  *************************/
@@ -457,7 +488,7 @@ $(document).ready(function() {
 
 
 $(window).on('load', function() {
+    attachReferralListener(),
     contactfrom(),
     wowanimation();
-
 });
