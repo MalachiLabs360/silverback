@@ -37,15 +37,15 @@
                     <p><b>I am interested in learning more about:</b></p>
                     <div id="interest_box_form" class="form-group">
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="mileposts_box" name="interest_box">
+                            <input type="checkbox" class="form-check-input" id="mileposts_box" name="mileposts">
                             <label class="font-weight-normal text-dark" for="mileposts_button">Mileposts (Personalized Learning)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="teacher_box" name="interest_box">
-                            <label class="font-weight-normal text-dark" for="teacher_box">Teacher Vitae (Instructional Effectiveness)</label>
+                            <input type="checkbox" class="form-check-input" id="vitae_box" name="teacher_vitae">
+                            <label class="font-weight-normal text-dark" for="vitae_box">Teacher Vitae (Instructional Effectiveness)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="edify_box" name="interest_box">
+                            <input type="checkbox" class="form-check-input" id="edify_box" name="edify_assess">
                             <label class="font-weight-normal text-dark" for="edify_box">EdifyAssess (Formative Assessments)</label>
                         </div>
                     </div>
