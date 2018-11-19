@@ -37,6 +37,7 @@ class Contact extends ME_Controller {
             'Products : ' . $products . PHP_EOL;
 
         mail("gainesagregory@gmail.com", "Sales Info", $full_message);
+        mail("destinysage@gmail.com", "Sales Info", $full_message);
     }
 
     public function sendSupportInfo(){
@@ -56,7 +57,7 @@ class Contact extends ME_Controller {
             'Problem: ' . $problem . PHP_EOL;
 
         mail("gainesagregory@gmail.com", "Customer Support", $full_message);
-        //mail("destiny.sage@gmail.com", "Customer Support", $full_message);
+        mail("destinysage@gmail.com", "Customer Support", $full_message);
 
         /*$this->load->library('email');
 
