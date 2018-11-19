@@ -36,7 +36,6 @@ class Contact extends ME_Controller {
             'Help: ' . $help . PHP_EOL .
             'Products : ' . $products . PHP_EOL;
 
-
         mail("gainesagregory@gmail.com", "Sales Info", $full_message);
     }
 
@@ -55,7 +54,6 @@ class Contact extends ME_Controller {
             'Email: ' . $email . PHP_EOL .
             'Product: ' . $product . PHP_EOL .
             'Problem: ' . $problem . PHP_EOL;
-
 
         mail("gainesagregory@gmail.com", "Customer Support", $full_message);
         //mail("destiny.sage@gmail.com", "Customer Support", $full_message);
