@@ -387,11 +387,30 @@ function contactfrom() {
         // Check how many checkboxes are checked
         var checked = 0;
 
-        $("input[name=interest_box]:checked").each(function () {
+        // Get Strings of boxes that are checked to add to data being POST.
+        var products='';
+
+        $("input[type=checkbox]:checked").each(function () {
+            switch ($(this).attr("id")) {
+                case "mileposts_box":
+                    products = products.concat('mileposts,');
+                    break;
+
+                case "vitae_box":
+                    products = products.concat('teacher_vitae,');
+                    break;
+
+                case "edify_box":
+                    products = products.concat('edifyassess,');
+                    break;
+            }
             checked++;
         });
 
-        // Continues if atleast one box is checked, makes boxes red if otherwise
+        // Remove Last comma from product string
+        products = products.substring(0, products.length - 1);
+
+        // Mark checkboxes as red if no box is choosen, otherwise continues
         if (checked == 0){
             $('#interest_box_form').css("border", "1px solid red");
             e.preventDefault(); // Prevent Default Submission
@@ -402,13 +421,15 @@ function contactfrom() {
         }
 
         if (flag == 0) {
+            var fullData = $("#contact_sales").serialize().concat("&products=").concat(products);
             $.ajax({
                     url: '/contact/sendSalesInfo',
                     type: 'POST',
-                    data: $("#contact_sales").serialize() // it will serialize the form data
+                    data: fullData, // it will serialize the form data
                 })
                 .done(function(data) {
                     alert("Sending sales");
+                    alert(fullData);
                     $("#success_sales").show();
                     $("#contact_sales")[0].reset();
                 })
@@ -432,13 +453,14 @@ function contactfrom() {
         });
 
         if (flag == 0) {
-            var fullData = 'product='.concat(document.getElementById("inputStateSupport").value).concat('&').concat($("#contact_support").serialize());
+            var fullData = $("#contact_support").serialize().concat('&product=').concat(document.getElementById("inputStateSupport").value);
             $.ajax({
                 url: '/contact/sendSupportInfo',
                 type: 'POST',
                 data: fullData, // it will serialize the form data
             })
                 .done(function(data) {
+                    alert(fullData);
                     alert("Sending support");
                     $("#success_support").show();
                     $('#contact_support')[0].reset();
@@ -455,7 +477,7 @@ function attachReferralListener() {
     document.getElementById("inputStateSales").addEventListener("click", checkReferralCollapse);
 }
 
-// If referal box is selected then show box asking who referred, otherwise hide collapse box
+// If referral box is selected then show box asking who referred, otherwise hide collapse box
 function checkReferralCollapse() {
     if (document.getElementById("inputStateSales").value === "Referral") {
         $('.collapse').collapse('show');
