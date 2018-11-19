@@ -37,15 +37,15 @@
                     <p><b>I am interested in learning more about:</b></p>
                     <div id="interest_box_form" class="form-group">
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="mileposts_box" name="mileposts">
-                            <label class="font-weight-normal text-dark" for="mileposts_button">Mileposts (Personalized Learning)</label>
+                            <input type="checkbox" class="form-check-input" id="mileposts_box">
+                            <label class="font-weight-normal text-dark" for="mileposts_box">Mileposts (Personalized Learning)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="vitae_box" name="teacher_vitae">
+                            <input type="checkbox" class="form-check-input" id="vitae_box">
                             <label class="font-weight-normal text-dark" for="vitae_box">Teacher Vitae (Instructional Effectiveness)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="edify_box" name="edify_assess">
+                            <input type="checkbox" class="form-check-input" id="edify_box">
                             <label class="font-weight-normal text-dark" for="edify_box">EdifyAssess (Formative Assessments)</label>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     <input class="collapse" id="referral_info" type="text" placeholder="Please tell us who referred you.*" name="referral">
                 </div>
                 <div class="section-field">
-                    <input class="require_sales" id="how_can_we_help" type="text" placeholder="How can we help you?*" name="howcan">
+                    <input class="require_sales" id="how_can_we_help" type="text" placeholder="How can we help you?*" name="help">
                 </div>
                 <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
                 <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" id="success_sales">
