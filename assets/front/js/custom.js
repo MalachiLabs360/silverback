@@ -369,13 +369,18 @@ Contact from
 *************************/
 function contactfrom() {
 
-    $('#contact_sales').submit(function(e) {
+    $('#contact_sales, #contact_support').submit(function(e) {
         var flag = 0;
+
+        var formID = "#" + $(this).attr("id");
+        var inputClass = formID === "#contact_sales" ? ".require_sales" : ".require_support";
+        var postUrl = /contact/ + (formID === "#contact_sales" ?  "sendSalesInfo" : "sendSupportInfo");
+
         e.preventDefault(); // Prevent Default Submission
 
         // Check text inputs
-        $('.require_sales').each(function() {
-            if ($.trim($(this).val()) == '') {
+        $(inputClass).each(function() {
+            if ($.trim($(this).val()) === '') {
                 $(this).css("border", "1px solid red");
                 e.preventDefault(); // Prevent Default Submission
                 flag = 1;
@@ -384,82 +389,61 @@ function contactfrom() {
             }
         });
 
-        // Check how many checkboxes are checked
-        var checked = 0;
-
-        // Get Strings of boxes that are checked to add to data being POST.
+        // String variable to hold products.
         var products='';
 
-        $("input[type=checkbox]:checked").each(function () {
-            switch ($(this).attr("id")) {
-                case "mileposts_box":
-                    products = products.concat('mileposts,');
-                    break;
+        // If form is contact sales check which checkboxes are checked and pass
+        // to a string which will be concat to data being POST.
+        if (formID === "#contact_sales") {
+            var checked = 0;
 
-                case "vitae_box":
-                    products = products.concat('teacher_vitae,');
-                    break;
+            $("input[type=checkbox]:checked").each(function () {
+                switch ($(this).attr("id")) {
+                    case "mileposts_box":
+                        products = products.concat('mileposts,');
+                        break;
 
-                case "edify_box":
-                    products = products.concat('edifyassess,');
-                    break;
-            }
-            checked++;
-        });
+                    case "vitae_box":
+                        products = products.concat('teacher_vitae,');
+                        break;
 
-        // Remove Last comma from product string
-        products = products.substring(0, products.length - 1);
+                    case "edify_box":
+                        products = products.concat('edifyassess,');
+                        break;
+                }
+                checked++;
+            });
 
-        // Mark checkboxes as red if no box is choosen, otherwise continues
-        if (checked == 0){
-            $('#interest_box_form').css("border", "1px solid red");
-            e.preventDefault(); // Prevent Default Submission
-            flag = 1;
-        }
-        else{
-            $('#interest_box_form').css("border", "transparent");
-        }
+            // Remove Last comma from product string
+            products = products.substring(0, products.length - 1);
 
-        if (flag == 0) {
-            var fullData = $("#contact_sales").serialize().concat("&products=").concat(products);
-            $.ajax({
-                    url: '/contact/sendSalesInfo',
-                    type: 'POST',
-                    data: fullData, // it will serialize the form data
-                })
-                .done(function(data) {
-                    $("#success_sales").show();
-                    $("#contact_sales")[0].reset();
-                })
-                .fail(function() {
-                    alert('Ajax Submit Failed ...');
-                });
-        }
-    });
-
-    $('#contact_support').submit(function(e) {
-        var flag = 0;
-        e.preventDefault(); // Prevent Default Submission
-        $('.require_support').each(function() {
-            if ($.trim($(this).val()) == '') {
-                $(this).css("border", "1px solid red");
+            // Mark checkboxes as red if no box is choosen, otherwise continues
+            if (checked === 0){
+                $('#interest_box_form').css("border", "1px solid red");
                 e.preventDefault(); // Prevent Default Submission
                 flag = 1;
-            } else {
-                $(this).css("border", "1px solid grey");
             }
-        });
+            else{
+                $('#interest_box_form').css("border", "transparent");
+            }
+        }
 
-        if (flag == 0) {
-            var fullData = $("#contact_support").serialize().concat('&product=').concat(document.getElementById("inputStateSupport").value);
+        // Data to be passed during POST.
+        var postData;
+
+        // Create POST data based on which form is being used
+        postData = $(formID).serialize().concat("&products=") + (formID === "#contact_sales" ? products : $("#inputStateSupport").val());
+
+        if (flag === 0) {
             $.ajax({
-                url: '/contact/sendSupportInfo',
+                url: postUrl,
                 type: 'POST',
-                data: fullData, // it will serialize the form data
+                data: postData,
             })
-                .done(function(data) {
+                .done(function() {
+                    alert(postData);
                     $("#success_support").show();
-                    $('#contact_support')[0].reset();
+                    $(formID)[0].reset();
                 })
                 .fail(function() {
                     alert('Ajax Submit Failed ...');
