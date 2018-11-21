@@ -441,13 +441,11 @@ function contactfrom() {
                 data: postData,
             })
                 .done(function() {
-                    alert(postData);
                     $("#success_support").show();
                     $(formID)[0].reset();
-                    
+
                     // Hide referral box.
                     $('.collapse').collapse('hide');
-
                 })
                 .fail(function() {
                     alert('Ajax Submit Failed ...');
