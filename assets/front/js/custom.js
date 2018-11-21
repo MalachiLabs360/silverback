@@ -444,6 +444,10 @@ function contactfrom() {
                     alert(postData);
                     $("#success_support").show();
                     $(formID)[0].reset();
+                    
+                    // Hide referral box.
+                    $('.collapse').collapse('hide');
+
                 })
                 .fail(function() {
                     alert('Ajax Submit Failed ...');
@@ -468,6 +472,7 @@ function checkReferralCollapse() {
         $("#referral_info").removeClass("require_sales");
     }
 }
+
 /*************************
  All function are called here
  *************************/
