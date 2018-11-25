@@ -373,6 +373,7 @@ function contactfrom() {
         var flag = 0;
 
         var formID = "#" + $(this).attr("id");
+        var supportID = formID === "#contact_sales" ? "#success_sales" : "#success_support";
         var inputClass = formID === "#contact_sales" ? ".require_sales" : ".require_support";
         var postUrl = /contact/ + (formID === "#contact_sales" ?  "sendSalesInfo" : "sendSupportInfo");
 
@@ -441,7 +442,16 @@ function contactfrom() {
                 data: postData,
             })
                 .done(function() {
-                    $("#success_support").show();
+                    $(supportID).addClass("alert alert-success alert-dismissible mt-3");
+
+                    var element = $('<strong>Thank You, Your message has been received.</strong>.\n' +
+                        '                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">\n' +
+                        '                            <span aria-hidden="true">&times;</span>\n' +
+                        '                        </button>');
+
+                    $(supportID).append(element);
+
+
                     $(formID)[0].reset();
 
                     // Hide referral box.

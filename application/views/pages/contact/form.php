@@ -69,11 +69,7 @@
                     <input class="require_sales" id="how_can_we_help" type="text" placeholder="How can we help you?*" name="help">
                 </div>
                 <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
-                <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" id="success_sales">
-                    <strong>Thank You, Your message has been received.</strong>.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <div id="success_sales">
                 </div>
             </div>
         </form>
@@ -115,11 +111,7 @@
                     <textarea id="contact_message" class="input-message require" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
                 </div>
                 <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
-                <div class="alert alert-success alert-dismissible fade show  mt-3" role="alert" id="success_support">
-                    <strong>Thank You, Your message has been received.</strong>.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <div id="success_support">
                 </div>
             </div>
         </form>
