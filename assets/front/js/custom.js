@@ -365,7 +365,7 @@ function wowanimation() {
 
 
 /*************************
-Contact from
+Contact form
 *************************/
 function contactfrom() {
 
@@ -451,11 +451,10 @@ function contactfrom() {
                     alert('Ajax Submit Failed ...');
                 });
         }
-    });
-}
 
-// Attach listener to checkboxes
-function attachReferralListener() {
+
+    });
+
     $("#inputStateSales").on('click', checkReferralCollapse);
 }
 
@@ -493,7 +492,6 @@ $(document).ready(function() {
 
 
 $(window).on('load', function() {
-    attachReferralListener(),
     contactfrom(),
     wowanimation();
 });
