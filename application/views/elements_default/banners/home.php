@@ -3,7 +3,7 @@
         <div class="banner-text">
             <div class="row">
                 <div class="col-lg-6 home-top-text">
-                    <h1 class="text-uppercase iq-font-white iq-tw-3">A <b class="iq-tw-7">360 degree solution</b> for education</h1>
+                    <h1 class="text-uppercase iq-font-white iq-tw-3"><b class="iq-tw-7"> Your 360 degree solution for education</b></h1>
                     <p class="iq-font-white iq-pt-15 iq-mb-40">Providing integrated platforms for seamless & accelerated instructional effectiveness</p>
                     <div class="waves-box">
                         <a href="https://www.youtube.com/watch?v=lRHV-HSMODg" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
