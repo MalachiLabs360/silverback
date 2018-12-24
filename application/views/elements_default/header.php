@@ -59,6 +59,10 @@
                             </li>
 
                             <li class="nav-item">
+                                <a class="<?= ($class_name == 'partners') ? 'nav-link active' : 'nav-link' ?>" href="/partners"><h5 class="text-white">Partners</h5></a>
+                            </li>
+
+                            <li class="nav-item">
                                 <a class="<?= $class_name == 'contact' ? 'nav-link active' : 'nav-link' ?>" href="/contact"><h5 class="text-white">Contact</h5></a>
                             </li>
                         </ul>
