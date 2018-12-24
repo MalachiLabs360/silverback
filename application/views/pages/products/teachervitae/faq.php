@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="heading-title">
-                    <h3 class="title iq-tw-7">The Silverback Advantage</h3>
+                    <h3 class="title iq-tw-7">The Teacher Vitae Advantage</h3>
                     <p>An educational company offering a 360* view of the student, the classroom, the school, the district the teacher and the administration. Radically improving efficiencies while enhancing the teaching and learning experiences for all.
                     </p>
                 </div>

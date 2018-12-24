@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="heading-title">
-                    <h3 class="title iq-tw-7">Cloud Hosted</h3>
-                    <p>EdifyAssess uses the Amazon CloudFront service to host its online item, assessment, audio, and video content. This provides an easy ability to globally serve assessment content to hundreds of thousands of concurrent users in an extremely scalable manner.</p>
+                    <h3 class="title iq-tw-7">TODO - Technology Enhanced Items</h3>
+                    <p>Not in this space</p>
                 </div>
             </div>
         </div>

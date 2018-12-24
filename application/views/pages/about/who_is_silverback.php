@@ -9,7 +9,7 @@
                 <a href="/about" class="button iq-mt-10 iq-mr-10 goto_about">Learn More</a>
             </div>
             <div class="col-lg-6 align-self-center">
-                <img class="iq-works-img" src="/assets/front/images/drive/home_who_is_silverback.png" alt="drive01">
+                <img class="iq-works-img" src="/assets/img/home/JimLewis.jpg" alt="drive01">
             </div>
         </div>
     </div>
