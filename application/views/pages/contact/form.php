@@ -37,16 +37,20 @@
                     <p><b>I am interested in learning more about:</b></p>
                     <div id="interest_box_form" class="form-group">
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="mileposts_box">
+                            <input type="checkbox" class="form-check-input" id="mileposts_box" value="Mileposts (Personalized Learning)">
                             <label class="font-weight-normal text-dark" for="mileposts_box">Mileposts (Personalized Learning)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="vitae_box">
+                            <input type="checkbox" class="form-check-input" id="vitae_box"  value="Teacher Vitae (Instructional Effectiveness)">
                             <label class="font-weight-normal text-dark" for="vitae_box">Teacher Vitae (Instructional Effectiveness)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="edify_box">
+                            <input type="checkbox" class="form-check-input" id="edify_box"  value="EdifyAssess (Formative Assessments)">
                             <label class="font-weight-normal text-dark" for="edify_box">EdifyAssess (Formative Assessments)</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="gooru_box"  value="Gooru (Learning Navigator)">
+                            <label class="font-weight-normal text-dark" for="gooru_box">Gooru (Learning Navigator)</label>
                         </div>
                     </div>
                 </div>
@@ -99,11 +103,11 @@
                 </div>
                 <div class="selection-field mb-3">
                     <p><b>Product:</b></p>
-                    <select id="inputStateSupport" class="form-control">
-                        <option selected>Mileposts</option>
-                        <option>Teacher Vitae</option>
-                        <option>EdifyAssess</option>
-                        <option>ParentPortal</option>
+                    <select id="inputStateSupport" class="form-control" name="product">
+                        <option value="Mileposts">Mileposts</option>
+                        <option value="Teacher Vitae">Teacher Vitae</option>
+                        <option value="EdifyAssess">EdifyAssess</option>
+                        <option value="Gooru Learning Navigator">Gooru Learning Navigator</option>
                     </select>
                 </div>
                 <div class="section-field textarea">

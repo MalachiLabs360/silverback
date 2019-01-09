@@ -31,7 +31,7 @@
                 <div class="iq-works-box text-left mileposts-works">
                     <div class="text-center">
                         <img src="/assets/front/images/services/icon-9.png" class="img-fluid" alt="#"></div>
-                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Multi Tier Intervention System</h6>
+                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Multi-Tiered (MTSS/RTI)</h6>
                     <p>A customizable platform providing real-time data that support teams need for effective decision-making.</p>
                 </div>
             </div>

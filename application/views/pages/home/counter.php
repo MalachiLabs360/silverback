@@ -39,7 +39,7 @@
                 <div class="col-lg-6">
                     <p>Educators and administrators partner with Silverback Learning Solutions in order to propel students in their personalized learning journey and teachers in their professional success. Our experienced team has worked together to create classroom and district assessments, focused on student needs. Join us and  revolutionize the way your team looks at instructional effectiveness.</p>
                     
-                    <a href="/products/mileposts" class="button bt-black iq-mt-15 iq-mb-30">Explore Silverback</a>
+                    <a href="/products/mileposts" class="button bt-black iq-mt-15 iq-mb-30">Explore Silverback's Solutions</a>
                 </div>
                 <div class="col-lg-6">
                     <div class="counter-info-img">
