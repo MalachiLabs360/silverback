@@ -1,4 +1,4 @@
-<section class="overview-block-ptb white-bg iq-loved-customers">
+<section class="overview-block-ptb white-bg iq-loved-customers grey-bg">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
