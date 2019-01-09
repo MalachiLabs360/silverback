@@ -32,12 +32,12 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
                             <li class="nav-item">
-                                <a class="<?= ($class_name == 'main') ? 'nav-link active' : 'nav-link' ?>" href="/">Home</a>
+                                <a class="<?= ($class_name == 'main') ? 'nav-link active' : 'nav-link' ?>" href="/"><h5 class="text-white">Home</h5></a>
                             </li>
-                            
+
                             <li class="nav-item dropdown">
-                                <a class="nav-link drop" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
-                                <div id="dropdown_menu" class="dropdown-menu">
+                                <a class="nav-link drop" data-toggle="dropdown" href="javascript:void(0);" role="button" aria-haspopup="true" aria-expanded="false"><h5 class="text-white">Products</h5></a>
+                                <div id="dropdown_menu" class="dropdown-menu mt-1">
                                     <a id="dropdown_item" class="dropdown-item" href="/products/mileposts">Mileposts</a>
                                     <div class="dropdown-divider"></div>
                                     <a id="dropdown_item" class="dropdown-item" href="/products/teachervitae">Teacher Vitae</a>
@@ -45,21 +45,25 @@
                                     <a id="dropdown_item" class="dropdown-item" href="/products/edifyassess">EdifyAssess</a>
                                 </div>
                             </li>
-                            
+
                             <li class="nav-item">
-                                <a class="<?= ($class_name == 'training') ? 'nav-link active' : 'nav-link' ?>" href="/training">Training</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="<?= ($class_name == 'news') ? 'nav-link active' : 'nav-link' ?>" href="/news">News</a>
+                                <a class="<?= ($class_name == 'training') ? 'nav-link active' : 'nav-link' ?>" href="/training"><h5 class="text-white">Training</h5></a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="<?= ($class_name == 'about') ? 'nav-link active' : 'nav-link' ?>" href="/about">About</a>
+                                <a class="<?= ($class_name == 'news') ? 'nav-link active' : 'nav-link' ?>" href="/news"><h5 class="text-white">News</h5></a>
                             </li>
-                            
+
                             <li class="nav-item">
-                                <a class="<?= $class_name == 'contact' ? 'nav-link active' : 'nav-link' ?>" href="/contact">Contact</a>
+                                <a class="<?= ($class_name == 'about') ? 'nav-link active' : 'nav-link' ?>" href="/about"><h5 class="text-white">About</h5></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="<?= ($class_name == 'partners') ? 'nav-link active' : 'nav-link' ?>" href="/partners"><h5 class="text-white">Partners</h5></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="<?= $class_name == 'contact' ? 'nav-link active' : 'nav-link' ?>" href="/contact"><h5 class="text-white">Contact</h5></a>
                             </li>
                         </ul>
                     </div>

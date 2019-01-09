@@ -31,16 +31,16 @@
                 <div class="iq-works-box text-left mileposts-works">
                     <div class="text-center">
                         <img src="/assets/front/images/services/icon-9.png" class="img-fluid" alt="#"></div>
-                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Multi-tier Intervention System</h6>
-                    <p>A customizable platform for district intervention methods and support packages.</p>
+                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Multi Tier Intervention System</h6>
+                    <p>A customizable platform providing real-time data that support teams need for effective decision-making.</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-3 r-mt-40">
                 <div class="iq-works-box text-left mileposts-works">
                     <div class="text-center">
                         <img src="/assets/front/images/services/icon-10.png" class="img-fluid" alt="#"></div>
-                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Student Achievement Data</h6>
-                    <p>Provides the ability to view side by side analysis of student’s results across comparable assessments.</p>
+                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Parent Portal</h6>
+                    <p>Bring parents into the loop with login access to their students learning plans, assessment scores, interventions, strategies, and current progress.</p>
                 </div>
             </div>
         </div>

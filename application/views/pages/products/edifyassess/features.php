@@ -25,8 +25,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12">
-                <h2 class="iq-tw-6 iq-mt-100 iq-mb-20 iq-font-white">Team Based</h2>
+                <h2 class="iq-tw-6 iq-mt-100 iq-mb-20 iq-font-white">Centralized Online Solution</h2>
                 <p class="iq-font-15">EdifyAssess can be used by teams to collaborate on their work. It equips school systems and educational publishers to efficiently create and manage large-volume item and assessment banks. Its intelligent workflow is designed for collaborative team production of aligned assessments between curriculum developers, psychometricians, teachers, administrators, and assessment coordinators.</p>
+                <ul class="iq-mt-40 iq-list">
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Create a comprehensive assessment plan for all stakeholders including students, teachers, principals, and administrators with an easy, online, educator-relevant platform.</span></li>
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Access and use content from pre-made large item banks as well as pre made assessments.</span></li>
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Author and import district owned items and tests for immediate use in the classroom or a defined group of students.</span></li>
+                    <li class="iq-tw-6"><i class="ion-android-done-all iq-mr-10 iq-font-blue iq-font-30"></i><span class="iq-font-black">Analyze standards aligned reports with robust, meaningful data that allows teachers to make informed decisions about instruction.</span></li>
+                </ul>
             </div>
             <div class="col-lg-6 col-md-12 soft-about">
             </div>

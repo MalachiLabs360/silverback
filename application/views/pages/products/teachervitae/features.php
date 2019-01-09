@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <h2 class="iq-tw-6 iq-mb-25">Teacher Vitae by Silverback</h2>
-                <p class="iq-font-15">Revolutionize the way your team looks at instructional effectiveness.</p>
+                <p class="iq-font-15">Teacher Vitae Silverback’s Professional Evaluation and Observation Platform offers a revolutionary way to organize and keep abreast of instructional effectiveness.</p>
                 <ul class="iq-mt-40 iq-list float-left">
                     <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Works on Any Device</span></li>
                     <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Offers Multiple Evaluation Measures</span></li>
