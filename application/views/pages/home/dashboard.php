@@ -1,10 +1,10 @@
-<section id="great-screenshots" class="overview-block-ptb iq-bg-over  iq-over-blue-80 iq-screenshots iq-parallax" data-jarallax='{"speed": 0.6}' style="background: url(/assets/front/images/bg/07.jpg);">
+<section id="great-screenshots" class="overview-block-ptb iq-bg-over  iq-over-blue-80 iq-screenshots iq-parallax" data-jarallax='{"speed": 0.6}'>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <div class="heading-title white">
-                    <h3 class="title iq-tw-7">User Friendly Dashboard</h3>
-                    <p class="iq-font-white">Our dashboard data visualizations help decision-making by identifying key trends. We help you define statistics that illustrate progress toward your organization’s strategic plan. </p>
+                    <h3 class="title iq-tw-7">User Friendly Dashboards</h3>
+                    <p class="iq-font-white font_size_20">Our dashboard data visualizations help decision-making by identifying key trends. We help you define statistics that illustrate progress toward your organization’s strategic plan. </p>
                 </div>
             </div>
         </div>

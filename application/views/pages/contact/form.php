@@ -12,47 +12,51 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Sales Information</h3>
-                    <p>If you are interested in learning more about our products.</p>
+                    <p class="font_size_20">If you are interested in learning more about our products.</p>
                 </div>
             </div>
         </div>
-        <form id="contact" method="post">
+        <form id="contact_sales" method="post">
             <div class="contact-form">
                 <div class="section-field">
-                    <input class="require" id="contact_name" type="text" placeholder="Full Name*" name="name">
+                    <input class="require_sales" id="contact_name" type="text" placeholder="Full Name*" name="name">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="contact_district" type="text" placeholder="District or Company*" name="district">
+                    <input class="require_sales" id="contact_district" type="text" placeholder="District or Company*" name="district">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
+                    <input class="require_sales" id="contact_email" type="email" placeholder="Email*" name="email">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="position_git ptitle" type="text" placeholder="Position Title - Superintendent, Teacher, Assessment Coordinator*" name="position">
+                    <input class="require_sales" id="position_title" type="text" placeholder="Position Title - Superintendent, Teacher, Assessment Coordinator*" name="position">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="phone_number" type="tel" placeholder="Phone Number - (555)-555-5555*" name="number">
+                    <input class="require_sales" id="phone_number" type="tel" placeholder="Phone Number - (555)-555-5555*" name="number">
                 </div>
                 <div>
                     <p><b>I am interested in learning more about:</b></p>
-                    <div class="form-group">
+                    <div id="interest_box_form" class="form-group">
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="mileposts_box">
-                            <label class="font-weight-normal text-dark" for="mileposts_button">Mileposts (Personalized Learning)</label>
+                            <input type="checkbox" class="form-check-input" id="mileposts_box" value="mileposts" name="products[]">
+                            <label class="font-weight-normal text-dark" for="mileposts_box">Mileposts (Personalized Learning)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="teacher_box">
-                            <label class="font-weight-normal text-dark" for="teacher_box">Teacher Vitae (Instructional Effectiveness)</label>
+                            <input type="checkbox" class="form-check-input" id="vitae_box"  value="teachervitae" name="products[]">
+                            <label class="font-weight-normal text-dark" for="vitae_box">Teacher Vitae (Instructional Effectiveness)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="edify_box">
+                            <input type="checkbox" class="form-check-input" id="edify_box"  value="edifyassess" name="products[]">
                             <label class="font-weight-normal text-dark" for="edify_box">EdifyAssess (Formative Assessments)</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="gooru_box"  value="gooru" name="products[]">
+                            <label class="font-weight-normal text-dark" for="gooru_box">Gooru (Learning Navigator)</label>
                         </div>
                     </div>
                 </div>
-                <div class="required selection-field mb-3">
+                <div id="hear_about_selection" class="required selection-field mb-3" data-toggle="collapse">
                     <p><b>How did you hear about us?</b></p>
-                    <select id="inputState" class="form-control">
+                    <select id="inputStateSales" class="form-control">
                         <option>Conference</option>
                         <option>Website</option>
                         <option>Email</option>
@@ -62,21 +66,14 @@
                         <option>Referral</option>
                     </select>
                 </div>
-                <div class="section-field">
-                    <input class="require" id="referral_info" type="text" placeholder="If this was a referral, please tell us who referred you.*" name="referral">
+                <div class="section-field d-md-none d-lg-block" data-toggle="collapse">
+                    <input class="collapse" id="referral_info" type="text" placeholder="Please tell us who referred you.*" name="referral">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="how_can_we_help" type="text" placeholder="How can we help you?*" name="howcan">
+                    <input class="require_sales" id="how_can_we_help" type="text" placeholder="How can we help you?*" name="help">
                 </div>
-                <div class="section-field iq-mt-20">
-                    <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
-                </div>
-                <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
-                <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
-                    <strong>Thank You, Your message has been received.</strong>.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <button id="submit" name="submit" type="submit" value="Send" class="button padding15">Send Message</button>
+                <div id="success_sales">
                 </div>
             </div>
         </form>
@@ -86,46 +83,39 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Customer Support</h3>
-                    <p>If you are an existing customer and need help with our products, your reports or have a technical question.</p>
+                    <p class="font_size_20">If you are an existing customer and need help with our products, your reports or have a technical question.</p>
                 </div>
             </div>
         </div>
-        <form id="contact" method="post">
+        <form id="contact_support" method="post">
             <div class="contact-form">
                 <div class="section-field">
-                    <input class="require" id="contact_name" type="text" placeholder="Full Name*" name="name">
+                    <input class="require_support" id="contact_name" type="text" placeholder="Full Name*" name="name">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="contact_location" type="text" placeholder="Location (State)*" name="location">
+                    <input class="require_support" id="contact_location" type="text" placeholder="Location (State)*" name="location">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="contact_district" type="text" placeholder="District*" name="district">
+                    <input class="require_support" id="contact_district" type="text" placeholder="District*" name="district">
                 </div>
                 <div class="section-field">
-                    <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
+                    <input class="require_support" id="contact_email" type="email" placeholder="Email*" name="email">
                 </div>
                 <div class="selection-field mb-3">
                     <p><b>Product:</b></p>
-                    <select id="inputState" class="form-control">
-                        <option selected>Mileposts</option>
-                        <option>Teacher Vitae</option>
-                        <option>EdifyAssess</option>
-                        <option>ParentPortal</option>
+                    <select id="inputStateSupport" class="form-control" name="product">
+                        <option value="Mileposts">Mileposts</option>
+                        <option value="Teacher Vitae">Teacher Vitae</option>
+                        <option value="EdifyAssess">EdifyAssess</option>
+                        <option value="Gooru Learning Navigator">Gooru Learning Navigator</option>
                     </select>
                 </div>
                 <div class="section-field textarea">
                     <p><b>Problem Description</b></p>
-                    <textarea id="contact_message" class="input-message require" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
+                    <textarea id="contact_message" class="input-message require_support" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
                 </div>
-                <div class="section-field iq-mt-20">
-                    <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
-                </div>
-                <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
-                <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
-                    <strong>Thank You, Your message has been received.</strong>.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <button id="submit" name="submit" type="submit" value="Send" class="button padding15">Send Message</button>
+                <div id="success_support">
                 </div>
             </div>
         </form>

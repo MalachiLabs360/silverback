@@ -455,7 +455,7 @@ Margin Right
 /*---------------------------------------------------------------------
                             Font Size 
 -----------------------------------------------------------------------*/
-.iq-font-15 { font-size: 15px; }
+.font_size_20 { font-size: 15px; }
 .iq-font-30 { font-size: 30px; }
 
 /*---------------------------------------------------------------------
@@ -560,10 +560,10 @@ Margin Right
 -----------------------------------------------------------------------*/
 header { position: fixed; display: inline-block; width: 100%; top: 0; left: 0; z-index: 999; padding: 20px 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .container-fluid { padding: 0 100px; }
-header .navbar { padding: 0; }
+header .navbar { padding: 10px 0px; }
 header .navbar .navbar-brand { padding: 0; }
 header .navbar .navbar-brand img { height: 80px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
-header .navbar .navbar-nav { margin-top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+header .navbar .navbar-nav { margin-top: 11px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 header .navbar .navbar-nav>li { margin: 0 30px 0 0; position: relative; }
 header .navbar .navbar-nav>li:last-child { margin-right: 0; }
 header .navbar .navbar-nav .nav-item a { color: #ffffff; padding: 10px 0; font-size: 16px; }
@@ -604,9 +604,8 @@ header.dark.menu-sticky { padding: 10px 0; -webkit-box-shadow: 0px 0px 30px 0px 
 .iq-banner { position: relative; overflow: hidden; }
 .iq-banner .container-fluid { padding: 0 90px; }
 .iq-banner:after { content: ""; bottom: -2px; left: 0; width: 100%; height: 78px; background: url('/assets/front/images/banner/02.png') no-repeat 0 0; background-size: cover; display: inline-block; position: absolute; }
-.iq-banner .banner-text { z-index: 9; position: relative; margin-top: 13%; }
-.iq-banner .banner-text h1 { font-size: 64px; line-height: normal; }
-.iq-banner .banner-img { width: 110%; }
+.iq-banner .banner-text { z-index: 9; position: relative; margin-top: 75px; }
+.iq-banner .banner-img { margin-top: -80px; }
 .iq-banner .iq-video { background: #fff; display: inline-block; width: 60px; height: 60px; text-align: center; font-size: 29px; color: #4ac4f3; float: left; border-radius: 100%; line-height: 2.1; z-index: 9; position: relative; }
 .iq-banner .iq-video i { margin-left: 5px; }
 .iq-banner .waves-box { position: relative; }
@@ -659,7 +658,7 @@ header.dark.menu-sticky { padding: 10px 0; -webkit-box-shadow: 0px 0px 30px 0px 
 /* Banner style 02 */
 .iq-banner-02.style-2:after { display: none; }
 .iq-banner-02.style-2 .banner-img { margin-bottom: 0; }
-}
+
 
 /* Banner 3 */
 .iq-banner-03 { position: relative; overflow: hidden; }
@@ -1091,7 +1090,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 .counter label { font-size: 18px; display: inline-block; width: 100%; position: relative; margin: 0 0 15px 0; margin-bottom: 0; text-transform: uppercase; float: left; }
 .counter-info { border-top: 1px solid rgba(255, 255, 255, 0.2); display: inline-block; width: 100%; position: relative; }
 .counter-info-img { position: relative; display: inline-block; width: 100%; height: 100%; min-height: 200px; }
-.counter-info-img img { margin-top: -30px; margin-bottom: -135px; }
+.counter-info-img img { margin-top: -30px; margin-bottom: 0px; }
 .counter-info .iq-video { background: #fff; display: inline-block; width: 80px; height: 80px; text-align: center; font-size: 32px; color: #4ac4f3; float: left; border-radius: 100%; line-height: 2.6; z-index: 9; position: relative; }
 .counter-info .iq-video i { margin-left: 7px; }
 .counter-info .waves-box { position: absolute; top: 45%; left: 61%; }

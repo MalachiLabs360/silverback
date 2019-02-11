@@ -1,0 +1,173 @@
+@media (min-width: 1201px) {
+  .mileposts-works {
+    min-height: 452px;
+  }
+  
+  #core-competencies .iq-fancy-box {
+    min-height: 374px;
+  }
+}
+
+@media (min-width: 1156px) and (max-width: 1164px) {
+  #core-competencies .iq-fancy-box {
+    min-height: 375px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1155px) {
+  .solution-description {
+    min-height: 155px;
+  }
+  #core-competencies .iq-fancy-box {
+    min-height: 430px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .mileposts-works {
+    min-height: 530px;
+  }
+  #centralized-solutions {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mileposts-works {
+    min-height: 400px;
+  }
+  
+  .top-margin-resp {
+    margin-top: 30px;
+  }
+  
+  #schedule .iq-services-box {
+    min-height: 280px;
+  }
+  
+  .solution-description {
+    min-height: 208px;
+  }
+  
+  #core-competencies .iq-fancy-box {
+    min-height: 292px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .mileposts-works {
+    min-height: 450px;
+  }
+  .solution-description {
+    min-height: 286px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header_sub_text {
+    line-height: 35px;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  .iq-banner .banner-text h1 {
+    font-size: 5vw;
+  }
+  .iq-banner .banner-img {
+    margin-top: -10px;
+  }
+  .banner-img-products {
+      margin-top: -10px;
+  }
+  .header_sub_text {
+    font-size: 4vw;
+    line-height: 35px;
+  }
+  .readable {
+    margin-top: 70px;
+  }
+  #schedule .iq-services-box {
+    min-height: 362px;
+  }
+}
+
+@media (max-width: 400px)  {
+  
+  header.menu-sticky .navbar .navbar-brand img, 
+  header .navbar .navbar-brand img {
+      height: 50px;
+  }
+  
+  .iq-banner .banner-text h1 {
+    font-size: 7vw;
+  }
+  
+  .header_sub_text {
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .banner-img-products {
+      margin-top: -10px;
+  }
+  
+  .readable {
+    margin-top: 70px;
+  }
+}
+
+@media(min-width:320px) {
+
+  .solution {
+    margin-bottom: 40px;
+  }
+  
+}
+
+@media(min-width:300px) {
+  .iq-amazing-tab .nav.nav-tabs li a i { 
+    display:none; 
+  }
+}
+
+@media(min-width:500px) {
+  
+  .solution .iq-works-box {
+    padding: 20px;
+  }
+  
+  .solution-description {
+    font-size: 15px;
+  }
+}
+
+
+@media(min-width:992px) {
+  #partners .iq-works-box {
+    height: 487px;
+  }
+  
+  .client-info p {
+    height: 353px;
+  }
+
+  .solution {
+    margin-bottom: 0px;
+  }
+  
+}
+
+@media(min-width:1000px) {
+  #schedule .iq-services-box {
+    height: 230px;
+  }
+}
+
+@media(min-width:1024px) {
+  .iq-amazing-tab .nav.nav-tabs li a i { 
+    display:inline-block; 
+  }
+}

@@ -69,21 +69,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
-
-#local
-'username' => 'root',
-'password' => 'r00t',
-'database' => 'dream',
-
-#dev1
-'username' => 'dev_malachi',
-'password' => 'justice360',
-'database' => 'dev_malachi',
-
-#silverback.xyz
-'username' => 'silverbacklearn',
-'password' => 'justice360',
-'database' => 'silverback_learning',
 */
 $active_group = 'default';
 $query_builder = TRUE;
@@ -97,7 +82,7 @@ $db['default'] = array(
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
-	'db_debug' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
 	'cachedir' => '',
 	'char_set' => 'utf8',

@@ -3,11 +3,8 @@
         <div class="banner-text text-center" style="margin-top: 10%">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class=" iq-font-white iq-tw-8">Silverback <span class="iq-font-blue">Training</span></h1>
-                    <p class="iq-font-white iq-pt-15 iq-mb-20 iq-mlr-100 iq-plr-50">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley,</p>
-                </div>
-                <div class="col-md-12">
-                    <iframe width="560" height="315" class="banner-video" src="https://www.youtube.com/embed/lRHV-HSMODg?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h1 class=" iq-font-white iq-tw-8">Silverback 2019 - Trainings</h1>
+                    <p class="iq-font-white iq-pt-15 iq-mb-20 iq-mlr-100 iq-plr-50">Onsite workshops. Staff development. Train the trainers.</p>
                 </div>
             </div>
         </div>
