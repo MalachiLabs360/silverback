@@ -2,9 +2,9 @@
     <div class="container-fluid">
         <div class="banner-text">
             <div class="row">
-                <div class="col-lg-6 home-top-text">
-                    <h1 class="text-uppercase iq-font-white iq-tw-3"><span class="header_sub_text">Your</span> <b class="iq-tw-7">360 degree solution</b> <span class="header_sub_text">for education</span></h1>
-                    <p class="iq-font-white iq-pt-15 iq-mb-40">Providing integrated platforms for seamless & accelerated instructional effectiveness</p>
+                <div class="col-lg-6 col-md-6 col-sm-6 home-top-text">
+                    <h1 class="text-uppercase iq-font-white iq-tw-3 home-banner-text">Your <br><b class="iq-tw-7">360&nbsp;degree&nbsp;solution</b><br>  for education</h1>
+                    <p class="iq-font-white iq-pt-15 iq-mb-40 font_size_20">Providing integrated platforms for seamless & accelerated instructional effectiveness</p>
                     <div class="waves-box">
                         <a href="https://www.youtube.com/watch?v=lRHV-HSMODg" class="iq-video popup-youtube"><i class="ion-ios-play-outline"></i></a>
                         <div class="iq-waves">
@@ -14,7 +14,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <img class="banner-img" src="/assets/front/images/banner/01.png" alt="">
                 </div>
             </div>

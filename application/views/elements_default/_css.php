@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/assets/front/css/style.css" />
 <link rel="stylesheet" href="/assets/front/css/responsive.css" />
 <link rel="stylesheet" href="/assets/front/css/custom.css" />
-
+<link rel="stylesheet" href="/assets/front/css/custom_responsive.css" />
 <?php 
 if (!empty($page['css'])) {
 	echo output_css($page['css']); 

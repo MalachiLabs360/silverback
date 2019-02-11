@@ -12,7 +12,7 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Sales Information</h3>
-                    <p>If you are interested in learning more about our products.</p>
+                    <p class="font_size_20">If you are interested in learning more about our products.</p>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
                     <input class="require_sales" id="contact_email" type="email" placeholder="Email*" name="email">
                 </div>
                 <div class="section-field">
-                    <input class="require_sales" id="position_git ptitle" type="text" placeholder="Position Title - Superintendent, Teacher, Assessment Coordinator*" name="position">
+                    <input class="require_sales" id="position_title" type="text" placeholder="Position Title - Superintendent, Teacher, Assessment Coordinator*" name="position">
                 </div>
                 <div class="section-field">
                     <input class="require_sales" id="phone_number" type="tel" placeholder="Phone Number - (555)-555-5555*" name="number">
@@ -37,19 +37,19 @@
                     <p><b>I am interested in learning more about:</b></p>
                     <div id="interest_box_form" class="form-group">
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="mileposts_box" value="Mileposts (Personalized Learning)">
+                            <input type="checkbox" class="form-check-input" id="mileposts_box" value="mileposts" name="products[]">
                             <label class="font-weight-normal text-dark" for="mileposts_box">Mileposts (Personalized Learning)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="vitae_box"  value="Teacher Vitae (Instructional Effectiveness)">
+                            <input type="checkbox" class="form-check-input" id="vitae_box"  value="teachervitae" name="products[]">
                             <label class="font-weight-normal text-dark" for="vitae_box">Teacher Vitae (Instructional Effectiveness)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="edify_box"  value="EdifyAssess (Formative Assessments)">
+                            <input type="checkbox" class="form-check-input" id="edify_box"  value="edifyassess" name="products[]">
                             <label class="font-weight-normal text-dark" for="edify_box">EdifyAssess (Formative Assessments)</label>
                         </div>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="gooru_box"  value="Gooru (Learning Navigator)">
+                            <input type="checkbox" class="form-check-input" id="gooru_box"  value="gooru" name="products[]">
                             <label class="font-weight-normal text-dark" for="gooru_box">Gooru (Learning Navigator)</label>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                 <div class="section-field">
                     <input class="require_sales" id="how_can_we_help" type="text" placeholder="How can we help you?*" name="help">
                 </div>
-                <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
+                <button id="submit" name="submit" type="submit" value="Send" class="button padding15">Send Message</button>
                 <div id="success_sales">
                 </div>
             </div>
@@ -83,7 +83,7 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Customer Support</h3>
-                    <p>If you are an existing customer and need help with our products, your reports or have a technical question.</p>
+                    <p class="font_size_20">If you are an existing customer and need help with our products, your reports or have a technical question.</p>
                 </div>
             </div>
         </div>
@@ -112,9 +112,9 @@
                 </div>
                 <div class="section-field textarea">
                     <p><b>Problem Description</b></p>
-                    <textarea id="contact_message" class="input-message require" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
+                    <textarea id="contact_message" class="input-message require_support" placeholder="*Please provide as many details as possible about the problem you are experiencing." rows="5" name="message"></textarea>
                 </div>
-                <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
+                <button id="submit" name="submit" type="submit" value="Send" class="button padding15">Send Message</button>
                 <div id="success_support">
                 </div>
             </div>

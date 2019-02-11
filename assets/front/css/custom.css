@@ -9,31 +9,37 @@ header {
   padding:0px;
 }
 
+header.menu-sticky .navbar .navbar-brand img,
 header .navbar .navbar-brand img {
-    height: 120px;
+    height: 70px;
 }
 
 header .container-fluid {
-    padding: 0 80px;
+    padding: 0 20px;
 }
 
 header.menu-sticky {
     padding: 0
 }
 
-header.menu-sticky .navbar .navbar-brand img {
-    height: 100px;
+.iq-banner .banner-text h1 {
+    font-size: 4vw;
+    line-height: normal;
+}
+
+.banner-img-products {
+    margin-top: -50px;
 }
 
 .header_sub_text {
   font-weight: 300;
   color: #1b5171;
-  font-size: 52px;
-  line-height: 58px;
+  font-size: 3vw;
+  line-height: 45px;
 }
 
 .readable {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .footer-form {
@@ -71,6 +77,36 @@ header.menu-sticky .navbar .navbar-brand img {
 .fa-adj {   
   padding-top: 10px;
 }
+
+.font_size_20 {
+  font-size: 17px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.awards td {
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.iq-banner .banner-text {
+    margin-bottom: 60px;
+}
+
+.home-top-text h1 {
+  margin-bottom: 20px;
+}
+
+.mileposts-works {
+  margin-bottom: 20px;
+}
+
+.padding15 {
+    margin: 15px;
+}
+
 /* -------------------------------------------------*/
 /* Header */
 /* -------------------------------------------------*/
@@ -120,6 +156,9 @@ header.header-green {
     margin-top: 30px;
 }
 
+.core_features_desc {
+  font-size: 15px;
+}
 /* -------------------------------------------------*/
 /* Partners */
 /* -------------------------------------------------*/
@@ -200,77 +239,4 @@ header.header-green {
   width: 100%; 
   z-index: -1; 
   background: rgba(0, 0, 0, 0.40); 
-}
-
-@media(min-width:320px) {
-
-  .solution {
-    margin-bottom: 40px;
-  }
-  
-}
-
-@media(min-width:300px) {
-  .iq-amazing-tab .nav.nav-tabs li a i { 
-    display:none; 
-  }
-}
-
-@media(min-width:500px) {
-  
-  .solution .iq-works-box {
-      height: 330px;
-  }
-  
-}
-
-@media(min-width:700px) {
-
-}
-
-@media(min-width:992px) {
-  #partners .iq-works-box {
-    height: 420px;
-  }
-  
-  .client-info p {
-    height: 353px;
-  }
-
-  .solution {
-    margin-bottom: 0px;
-  }
-  
-  .mileposts-works {
-    height: 400px;
-  }
-  
-  #core-competencies .iq-fancy-box {
-    height: 445px;
-  }
-}
-
-@media(min-width:1000px) {
-  .mileposts-works {
-    height: 440px;
-  }
-  #core-competencies .iq-fancy-box {
-    height: 365px;
-  }
-  
-}
-
-@media(min-width:1024px) {
-  .home-top-text {
-    margin-top: -50px;
-  }
-  .iq-amazing-tab .nav.nav-tabs li a i { 
-    display:inline-block; 
-  }
-}
-
-@media(min-width:1200px) {
-  .mileposts-works {
-    height: 400px;
-  }
 }

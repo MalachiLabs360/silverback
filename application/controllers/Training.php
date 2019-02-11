@@ -15,4 +15,23 @@ class Training extends ME_Controller {
         $params = array();
         $this->load->view('pages/training/main',$params);
     }
+
+    public function sendTrainingInfo() {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $title = $_POST['position'];
+        $district = $_POST['district'];
+        $number = $_POST['number'];
+        $message = $_POST['message'];
+
+        $full_message =
+            'Name: ' . $name . PHP_EOL .
+            'Email: ' . $email . PHP_EOL .
+            'Title: ' . $title . PHP_EOL .
+            'District: ' . $district . PHP_EOL .
+            'Number: ' . $number . PHP_EOL .
+            'Message: ' . $message . PHP_EOL;
+
+        mail("info@hamulti.com", "Training", $full_message);
+    }
 }

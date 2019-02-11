@@ -363,13 +363,11 @@ function wowanimation() {
     wow.init();
 }
 
-
 /*************************
-Contact form
-*************************/
-function contactfrom() {
-
-    $('#contact_sales, #contact_support').submit(function(e) {
+ Contact
+ *************************/
+function contactForm() {
+    $('#contact_sales, #contact_support').submit(function (e) {
         var flag = 0;
 
         var formID = "#" + $(this).attr("id");
@@ -390,33 +388,14 @@ function contactfrom() {
             }
         });
 
-        // String variable to hold products.
-        var products='';
-
         // If form is contact sales check which checkboxes are checked and pass
         // to a string which will be concat to data being POST.
         if (formID === "#contact_sales") {
             var checked = 0;
 
             $("input[type=checkbox]:checked").each(function () {
-                switch ($(this).attr("id")) {
-                    case "mileposts_box":
-                        products = products.concat('mileposts,');
-                        break;
-
-                    case "vitae_box":
-                        products = products.concat('teacher_vitae,');
-                        break;
-
-                    case "edify_box":
-                        products = products.concat('edifyassess,');
-                        break;
-                }
                 checked++;
             });
-
-            // Remove Last comma from product string
-            products = products.substring(0, products.length - 1);
 
             // Mark checkboxes as red if no box is choosen, otherwise continues
             if (checked === 0){
@@ -429,17 +408,11 @@ function contactfrom() {
             }
         }
 
-        // Data to be passed during POST.
-        var postData;
-
-        // Create POST data based on which form is being used
-        postData = $(formID).serialize().concat("&products=") + (formID === "#contact_sales" ? products : $("#inputStateSupport").val());
-
         if (flag === 0) {
             $.ajax({
                 url: postUrl,
                 type: 'POST',
-                data: postData,
+                data: $(this).serialize(),
             })
                 .done(function() {
                     $(supportID).addClass("alert alert-success alert-dismissible mt-3");
@@ -451,7 +424,6 @@ function contactfrom() {
 
                     $(supportID).append(element);
 
-
                     $(formID)[0].reset();
 
                     // Hide referral box.
@@ -461,23 +433,121 @@ function contactfrom() {
                     alert('Ajax Submit Failed ...');
                 });
         }
-
-
     });
 
-    $("#inputStateSales").on('click', checkReferralCollapse);
+    $("#inputStateSales").on('click', function (e) {
+        // If referral box is selected then show box asking who referred, otherwise collapse box
+        if ($("#inputStateSales").val() === "Referral") {
+            $('.collapse').collapse('show');
+            $("#referral_info").addClass("require_sales");
+        }
+        else {
+            $('.collapse').collapse('hide');
+            $("#referral_info").removeClass("require_sales");
+        }
+    });
 }
 
-// If referral box is selected then show box asking who referred, otherwise hide collapse box
-function checkReferralCollapse() {
-    if ($("#inputStateSales").val() === "Referral") {
-        $('.collapse').collapse('show');
-        $("#referral_info").addClass("require_sales");
-    }
-    else {
-        $('.collapse').collapse('hide');
-        $("#referral_info").removeClass("require_sales");
-    }
+/*************************
+ Summit
+ *************************/
+function summitForm() {
+    $('#summit_form').submit(function(e) {
+        var flag = 0;
+
+        var postUrl = '/summit/sendSummitInfo';
+
+        e.preventDefault(); // Prevent Default Submission
+
+        // Check text inputs
+        $(".require_summit").each(function() {
+            if ($.trim($(this).val()) === '') {
+                $(this).css("border", "1px solid red");
+                e.preventDefault(); // Prevent Default Submission
+                flag = 1;
+            } else {
+                $(this).css("border", "1px solid grey");
+            }
+        });
+
+        $("#radio_group").css("border", "transparent");
+
+        // Check Radios
+        if (!$("#summitYesRadio").is(':checked') && !$("#summitNoRadio").is(':checked')) {
+            $("#radio_group").css("border", "1px solid red");
+            flag = 1;
+        }
+
+        if (flag === 0) {
+            $.ajax({
+                url: postUrl,
+                type: 'POST',
+                data: $(this).serialize(),
+            })
+                .done(function() {
+                    $("#success_summit").addClass("alert alert-success alert-dismissible mt-3");
+
+                    var element = $('<strong>Thank You, Your message has been received.</strong>.\n' +
+                        '                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">\n' +
+                        '                            <span aria-hidden="true">&times;</span>\n' +
+                        '                        </button>');
+
+                    $("#success_summit").append(element);
+
+                    $($("#summit_form"))[0].reset();
+                })
+                .fail(function() {
+                    alert('Ajax Submit Failed ...');
+                });
+        }
+    });
+}
+
+/*************************
+ Training
+ *************************/
+function trainingForm() {
+    $('#training_form').submit(function(e) {
+        var flag = 0;
+
+        var postUrl = '/training/sendTrainingInfo';
+
+        e.preventDefault(); // Prevent Default Submission
+
+        // Check text inputs
+        $(".require_training").each(function() {
+            if ($.trim($(this).val()) === '') {
+                $(this).css("border", "1px solid red");
+                e.preventDefault(); // Prevent Default Submission
+                flag = 1;
+            } else {
+                $(this).css("border", "1px solid grey");
+            }
+        });
+
+        if (flag === 0) {
+            $.ajax({
+                url: postUrl,
+                type: 'POST',
+                data: $(this).serialize(),
+            })
+                .done(function() {
+                    $("#success_training").addClass("alert alert-success alert-dismissible mt-3");
+
+                    var element = $('<strong>Thank You, Your message has been received.</strong>.\n' +
+                        '                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">\n' +
+                        '                            <span aria-hidden="true">&times;</span>\n' +
+                        '                        </button>');
+
+                    $("#success_training").append(element);
+
+                    $($("#request_form"))[0].reset();
+                })
+                .fail(function() {
+                    alert('Ajax Submit Failed ...');
+                });
+        }
+    });
 }
 
 /*************************
@@ -498,10 +568,14 @@ $(document).ready(function() {
     widget(),
     screensilder(),
     counter();
+
+    // Calling Back JS Here
+    contactForm();
+    summitForm();
+    trainingForm();
 });
 
 
 $(window).on('load', function() {
-    contactfrom(),
     wowanimation();
 });

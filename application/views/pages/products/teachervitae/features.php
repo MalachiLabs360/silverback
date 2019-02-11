@@ -1,22 +1,30 @@
-<section id="iq-services" class="overview-block-ptb iq-mt-80 how-works">
+<section id="iq-services" class="overview-block-ptb top-margin-resp how-works">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+              <div class="heading-title">
+                  <h3 class="title iq-tw-7">Teacher Vitae by Silverback</h3>
+                  <p class="font_size_20">Teacher Vitae Silverback’s Professional Evaluation and Observation Platform offers a revolutionary way to organize and keep abreast of instructional effectiveness.
+                  </p>
+              </div>
+          </div>
+      </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h2 class="iq-tw-6 iq-mb-25">Teacher Vitae by Silverback</h2>
-                <p class="iq-font-15">Teacher Vitae Silverback’s Professional Evaluation and Observation Platform offers a revolutionary way to organize and keep abreast of instructional effectiveness.</p>
                 <ul class="iq-mt-40 iq-list float-left">
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Works on Any Device</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Offers Multiple Evaluation Measures</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Includes Portable Professional Portfolios</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Individualized Learning Plans</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Launches Ad Hoc Forms</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Quick Status Dashboard Views</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Centralized Location for all Facets of Staff Evaluation</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Complete Walkthroughs, Summative Evaluations,Observations etc.</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Scheduling, Bulk Scheduling, Scoring, Sharing and e-Signing</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Customizable Forms, Templates and Rubrics WithWide Variety of Field Types</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Unique Tagging System Tying Every Observationand Note to the State and/or District Summative Evaluation</span></li>
-                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black">Tag to Domains and Standards in Real Time</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Works on Any Device</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Offers Multiple Evaluation Measures</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Includes Portable Professional Portfolios</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Individualized Learning Plans</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Launches Ad Hoc Forms</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Quick Status Dashboard Views</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Centralized Location for all Facets of Staff Evaluation</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Complete Walkthroughs, Summative Evaluations,Observations etc.</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Scheduling, Bulk Scheduling, Scoring, Sharing and e-Signing</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Customizable Forms, Templates and Rubrics WithWide Variety of Field Types</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Unique Tagging System Tying Every Observationand Note to the State and/or District Summative Evaluation</span></li>
+                    <li class="iq-tw-7"><i class="ion-android-done-all iq-mr-20 iq-font-blue iq-font-30"></i><span class="iq-font-black font_size_20">Tag to Domains and Standards in Real Time</span></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>

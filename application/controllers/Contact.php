@@ -17,6 +17,13 @@ class Contact extends ME_Controller {
     }
 
     public function sendSalesInfo(){
+        $productsArray = $_POST['products'];
+        $products = '';
+
+        foreach ($productsArray as &$value) {
+            $products = $products. $value . ", ";
+        }
+
         $name = $_POST['name'];
         $district = $_POST['district'];
         $email = $_POST['email'];
@@ -24,7 +31,10 @@ class Contact extends ME_Controller {
         $number = $_POST['number'];
         $referral = $_POST['referral'];
         $help = $_POST['help'];
-        $products = $_POST['products'];
+
+        if ($referral == "") {
+            $referral = 'none';
+        }
 
         $full_message =
             'Name: ' . $name . PHP_EOL .
@@ -36,8 +46,8 @@ class Contact extends ME_Controller {
             'Help: ' . $help . PHP_EOL .
             'Products : ' . $products . PHP_EOL;
 
-        mail("gainesagregory@gmail.com", "Sales Info", $full_message);
-        mail("destinysage@gmail.com", "Sales Info", $full_message);
+        mail("info@hamulti.com", "Sales Info", $full_message);
+        //mail("destinysage@gmail.com", "Sales Info", $full_message);
     }
 
     public function sendSupportInfo(){
@@ -56,17 +66,8 @@ class Contact extends ME_Controller {
             'Product: ' . $product . PHP_EOL .
             'Problem: ' . $problem . PHP_EOL;
 
-        mail("gainesagregory@gmail.com", "Customer Support", $full_message);
-        mail("destinysage@gmail.com", "Customer Support", $full_message);
-
-        /*$this->load->library('email');
-
-        $this->email->from('mayhemg@yahoo.com', 'SilverBack');
-        $this->email->to('gainesagregory@gmail.com');
-
-        $this->email->subject('Customer Support');
-        $this->email->message($full_message);
-
-        $this->email->send();*/
+        mail("info@hamulti.com", "Customer Support", $full_message);
+        //mail("gainesagregory@gmail.com", "Customer Support", $full_message);
+        //mail("destinysage@gmail.com", "Customer Support", $full_message);
     }
 }
