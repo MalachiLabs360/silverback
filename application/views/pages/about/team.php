@@ -11,7 +11,7 @@
             <div class="col-sm-12 col-lg col-md-6 r-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
-                        <img src="/assets/front/images/team/icon.png" class="img-fluid center-block" alt="Rudy">
+                        <img src="/assets/front/images/team/rudilewis.jpg" class="img-fluid center-block" alt="Rudy">
                     </div>
                     <div class="iq-team-info text-center">
                         <h5 class="iq-font-black font_size_20 iq-tw-6">Rudi Lewis</h5>
@@ -29,10 +29,10 @@
             <div class="col-sm-12 col-lg col-md-6 r-mt-30">
                 <div class="iq-team grey-bg">
                     <div class="iq-team-img">
-                        <img src="/assets/front/images/team/icon.png" class="img-fluid center-block" alt="Jade">
+                        <img src="/assets/front/images/team/jademillington.jpg" class="img-fluid center-block" alt="Jade">
                     </div>
                     <div class="iq-team-info text-center">
-                        <h5 class="iq-font-black font_size_20 iq-tw-6">CFO</h5>
+                        <h5 class="iq-font-black font_size_20 iq-tw-6">Jade Millington</h5>
                         <span class="team-post iq-tw-5">Chief Financial Officer</span>
                     </div>
                     <div class="share">

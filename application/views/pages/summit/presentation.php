@@ -21,7 +21,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-11 text-center">
-                                        <img src="/assets/front/images/SBmaindark.png" style="width: 100px; height: 50px;">
+                                        <img src="/assets/front/images/SBmaindark.png" style="margin-bottom: 25px; height: 50px;">
                                     </div>
                                     <div class="col-md-1">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">

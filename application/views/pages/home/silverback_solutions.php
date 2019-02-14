@@ -4,7 +4,7 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Silverback Solutions</h3>
-                    <p class="font_size_20">Individualized instruction and assessments for students—observation, evaluation, professional development and portfolio options for teachers and administration</p>
+                    <p class="font_size_20">Individualized instruction and assessments for students: observation, evaluation, professional development, and portfolio options for teachers and administration</p>
                 </div>
             </div>
         </div>
@@ -14,7 +14,7 @@
                     <div class="icon-bg text-center">
                         <img src="/assets/front/images/logos/mileposts.png" class="img-fluid" alt="Mileposts">
                     </div>
-                      <p class="solution-description">A Data aggregated and accessible instructional management system Featuring learner profiles encapsulating the “whole child”.</p>
+                      <p class="solution-description">A data-aggregated and accessible instructional management system featuring learner profiles encapsulating the “whole child.”</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 col-sm-4 solution" id="vitae">

@@ -4,7 +4,7 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Silverback Mileposts</h3>
-                    <p class="font_size_20">The Milepost platform can be used as a district or schools data aggregator from all solutions in place making the personalized path to success easy to plan out on the individual level.</p>
+                    <p class="font_size_20">The Mileposts platform can be used as a district or school's data aggregator from all solutions in place making the personalized path to success easy to plan out on the individual level.</p>
                 </div>
             </div>
         </div>
@@ -31,8 +31,8 @@
                 <div class="iq-works-box text-left mileposts-works">
                     <div class="text-center">
                         <img src="/assets/front/images/services/icon-9.png" class="img-fluid" alt="#"></div>
-                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Multi Tiered Intervention System (MTSS/RTI)</h6>
-                    <p class="font_size_20">A customizable platform providing real-time data that supports teams needs for effective decision making.</p>
+                    <h6 class="iq-tw-7 text-uppercase iq-mt-25 iq-mb-15">Multi-Tiered Intervention System (MTSS/RTI)</h6>
+                    <p class="font_size_20">A customizable platform providing real-time data that supports teams' needs for effective decision making.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 col-sm-6 r-mt-40">

@@ -4,7 +4,7 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">Awards</h3>
-                    <p class="font_size_20">Silverback Learning Solutions has been the recipient of The Cool Tool, Ed Growth Top 5, and District Administration Top 100 Awards since 2011.</p>
+                    <p class="font_size_20">Silverback Learning Solutions has been the recipient of the Cool Tool, Ed Growth Top 5, and District Administration Top 100 Awards since 2011.</p>
                 </div>
             </div>
         </div>

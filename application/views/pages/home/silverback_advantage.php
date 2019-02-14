@@ -4,7 +4,7 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">The Silverback Advantage</h3>
-                    <p class="font_size_20">An educational company offering a 360* view of the student, the classroom, the school, the district the teacher and the administration. Radically improving efficiencies while enhancing the teaching and learning experiences for all.
+                    <p class="font_size_20">An educational company offering a 360&deg;  view of the student, teacher, classroom, school, administration and district. Radically improving efficiencies while enhancing the teaching and learning experiences for all.
                     </p>
                 </div>
             </div>

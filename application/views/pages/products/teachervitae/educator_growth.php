@@ -9,7 +9,7 @@
                     Teacher Vitae’s dual system design provides Evaluation Management to guide the entire employee observation and evaluation process for any staff member.
 
                     Every employee is empowered with a Personal Portfolio, allowing professional portfolios to be built capturing personal success and reflection on practice.
-
+                    
                     Portfolios artifacts are even portable, and offer a current and historical view of all stored artifacts.
                 </p>
             </div>

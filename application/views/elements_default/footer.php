@@ -32,8 +32,8 @@
                         <div class="footer-content">
                             <h4 class="iq-tw-6 iq-pb-10">Phone</h4>
                             <p class="font_size_16">Toll Free: 855-258-2581
-                                Direct: 208-258-2580
-                                <br>Mon-Fri 8:00am - 8:00pm
+                                <br>Direct: 208-258-2580
+                                <br>Mon-Fri 8:00am - 8:00pm (MST)
                                 <br>
                             </p>
                         </div>
@@ -46,8 +46,8 @@
                         </div>
                         <div class="footer-content">
                             <h4 class="iq-tw-6 iq-pb-10">Mail</h4>
-                            <p class="font_size_16">info<br>
-                              @silverbacklearning.com
+                            <p class="font_size_16"><a style="color: #666666" href="mailto:info@silverbacklearning.com">info@<br>
+                              @silverbacklearning.com</a>
                                 <br>
                             </p>
                         </div>

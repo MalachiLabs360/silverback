@@ -4,7 +4,7 @@
             <div class="col-sm-12">
                 <div class="heading-title">
                     <h3 class="title iq-tw-7">The Teacher Vitae Advantage</h3>
-                    <p class="font_size_20">Teacher Vitae offers a 360* view of your entire evaluation process. Radically improving efficiencies while enhancing the educational environment
+                    <p class="font_size_20">Teacher Vitae offers a 360&deg; view of your entire evaluation process. Radically improving efficiencies while enhancing the educational environment
                     </p>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="iq-ad-block"> <a href="#" class="ad-title iq-tw-6 iq-font-grey">Q: How do educators access Teacher Vitae?</a>
-                        <div class="ad-details font_size_20">A: Teacher Vitae is quick and easy for educators to access anywhere, anytime and on any device. Teacher Vitae requires minimal bandwidth and is usable virtually anywhere on any device that has a web browser and a connection to the internet. Educators enjoy full functionality and secure access wherever they are working. The interface adapts to different devices and screen sizes naturally from your phone, tablet, laptop or desk computer.</div>
+                        <div class="ad-details font_size_20">A: Teacher Vitae is quick and easy for educators to access anywhere, anytime, and on any device. Teacher Vitae requires minimal bandwidth and is usable virtually anywhere on any device that has a web browser and a connection to the Internet. Educators enjoy full functionality and secure access wherever they are working. The interface adapts to different devices and screen sizes naturally from your phone, tablet, laptop, or desk computer.</div>
                     </div>
                 </div>
             </div>

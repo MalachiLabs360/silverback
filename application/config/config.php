@@ -119,7 +119,7 @@ $config['approved_folders'] = array("page", "store", "blog");
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/';
+$config['base_url'] = 'http://beta.silverbacklearning.com';
 
 /*
 |--------------------------------------------------------------------------
