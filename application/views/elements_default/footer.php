@@ -40,14 +40,13 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 r-mt-30">
-                    <div class="iq-footer-box text-left">
+                    <div class="iq-footer-box text-left" style="min-width: 307px">
                         <div class="iq-icon">
                             <i aria-hidden="true" class="ion-ios-email-outline"></i>
                         </div>
                         <div class="footer-content">
                             <h4 class="iq-tw-6 iq-pb-10">Mail</h4>
-                            <p class="font_size_16"><a style="color: #666666" href="mailto:info@silverbacklearning.com">info@<br>
-                              @silverbacklearning.com</a>
+                            <p class="font_size_16"><a style="color: #666666" href="mailto:info@silverbacklearning.com">info@silverbacklearning.com</a>
                                 <br>
                             </p>
                         </div>
